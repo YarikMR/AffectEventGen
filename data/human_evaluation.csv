@@ -1,0 +1,961 @@
+Annotator,Text,PromptSet,Architecture,Emotion,Attention,Responsibility,Control,Circumstance,Pleasantness,Effort,Certainty,a_Anger,a_Disgust,a_Fear,a_Guilty,a_Joy,a_Sadness,a_Shame,a_Attention,a_Responsibility,a_Control,a_Circumstance,a_Pleasantness,a_Effort,a_Certainty,Fluent,Grammatical_error,Native_speaker,Coherence,Really_happened,Written_AI,Written_Human
+0,when I saw a dead frog.,EP,E-t5-base,disgust,0,0,0,0,0,0,0,1,1,1,2,1,5,1,1,1,1,5,1,3,1,5,1,5,5,5,1,5
+1,when I saw a dead frog.,EP,E-t5-base,disgust,0,0,0,0,0,0,0,1,2,1,1,1,3,1,3,1,1,5,1,1,1,4,1,4,3,4,1,4
+2,when I saw a dead frog.,EP,E-t5-base,disgust,0,0,0,0,0,0,0,1,5,2,4,1,4,1,4,1,1,5,1,3,1,3,5,2,3,3,4,2
+0,I felt a lot of  when seeing someone else's face in public.,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,1,1,1,1,4,1,1,4,1,1,1,1,1,1,1,4,1,1,1,5,1
+1,I felt a lot of  when seeing someone else's face in public.,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,5,1,1,1,5,1
+2,I felt a lot of  when seeing someone else's face in public.,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,1,3,1,1,1,1,1,3,3,3,3,2,2,2,2,5,1,1,1,5,1
+0,when I saw my friend being cheated,EP,E-t5-base,anger,0,0,0,0,0,0,0,4,4,2,2,1,4,1,3,1,1,1,1,1,1,1,5,1,1,4,3,1
+1,when I saw my friend being cheated,EP,E-t5-base,anger,0,0,0,0,0,0,0,5,5,3,2,1,5,2,4,1,1,5,1,2,2,5,1,5,5,4,3,3
+2,when I saw my friend being cheated,EP,E-t5-base,anger,0,0,0,0,0,0,0,5,5,5,5,1,5,5,3,1,3,2,1,1,5,5,5,3,2,5,1,5
+0,I felt a lot of  when I saw my partner being abused.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,4,4,3,4,1,4,1,5,1,2,3,1,3,1,2,5,4,2,4,1,5
+1,I felt a lot of  when I saw my partner being abused.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,5,5,5,4,1,5,2,5,1,1,5,1,4,4,3,4,3,3,4,4,2
+2,I felt a lot of  when I saw my partner being abused.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,5,5,5,5,1,5,2,5,2,2,5,1,5,1,2,5,4,1,5,4,4
+0,when I saw my partner being cheated,EP,E-t5-base,anger,0,0,0,0,0,0,0,2,3,2,2,1,4,4,4,2,3,4,4,4,4,3,3,2,2,4,4,4
+1,when I saw my partner being cheated,EP,E-t5-base,anger,0,0,0,0,0,0,0,1,1,1,1,2,1,1,2,5,5,1,1,5,4,2,2,1,1,1,5,1
+2,when I saw my partner being cheated,EP,E-t5-base,anger,0,0,0,0,0,0,0,4,4,2,2,1,4,2,3,1,1,3,1,2,1,4,1,4,4,4,3,2
+0,when a friend of mine was being abused.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,4,4,4,4,1,4,4,4,1,1,1,1,4,2,5,1,4,5,5,1,4
+1,when a friend of mine was being abused.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,5,5,4,4,1,5,2,4,1,1,1,1,1,2,5,5,2,4,5,4,2
+2,when a friend of mine was being abused.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,5,5,5,5,1,5,5,4,2,3,2,2,4,4,3,3,3,3,3,3,3
+0,when I read a book about the death,EP,E-t5-base,sadness,0,0,0,0,0,0,0,4,2,1,4,1,4,3,3,4,4,2,1,3,4,4,3,4,4,4,1,4
+1,when I read a book about the death,EP,E-t5-base,sadness,0,0,0,0,0,0,0,2,1,1,1,1,4,1,5,4,1,4,1,1,3,5,2,5,5,5,1,5
+2,when I read a book about the death,EP,E-t5-base,sadness,0,0,0,0,0,0,0,1,1,5,3,1,5,1,2,1,1,5,1,5,1,3,4,1,4,3,3,1
+0,when I read about a family member who had recently passed away.,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,1,1,2,1,1,4,1,4,1,1,4,1,3,2,4,2,2,3,3,4,2
+1,when I read about a family member who had recently passed away.,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,2,1,2,2,1,5,1,2,1,1,5,1,3,2,5,5,5,5,5,1,4
+2,when I read about a family member who had recently passed away.,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,4,2,4,4,1,1,2,4,1,4,4,1,3,2,2,4,2,2,4,4,2
+0,when I read about my father's death and how it affected my life.,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,2,1,2,2,1,3,1,4,1,1,2,1,3,1,5,1,4,4,4,2,3
+1,when I read about my father's death and how it affected my life.,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,4,1,3,3,1,5,1,5,1,1,3,1,4,1,4,2,2,4,3,3,2
+2,when I read about my father's death and how it affected my life.,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,4,3,4,4,1,5,4,3,1,3,3,1,3,3,3,3,3,4,3,3,4
+0,When a friend scolded me,EP,E-t5-base,shame,0,0,0,0,0,0,0,5,2,1,4,1,4,3,4,5,4,1,1,3,5,4,2,4,4,5,1,5
+1,When a friend scolded me,EP,E-t5-base,shame,0,0,0,0,0,0,0,2,2,1,1,1,1,1,5,3,3,4,1,1,2,5,1,5,5,5,1,5
+2,When a friend scolded me,EP,E-t5-base,shame,0,0,0,0,0,0,0,4,4,4,4,1,4,4,3,1,1,5,1,2,1,3,3,1,2,5,5,1
+0,When a friend of mine cheated on me for not doing something I wanted.,EP,EA-t5-base,shame,0,0,0,0,0,0,0,3,2,2,3,1,2,2,3,3,3,1,1,3,1,2,5,1,2,2,4,2
+1,When a friend of mine cheated on me for not doing something I wanted.,EP,EA-t5-base,shame,0,0,0,0,0,0,0,4,4,2,1,1,3,1,4,5,4,1,1,2,2,5,2,3,4,4,4,2
+2,When a friend of mine cheated on me for not doing something I wanted.,EP,EA-t5-base,shame,0,0,0,0,0,0,0,4,4,4,4,2,4,5,3,4,4,2,2,4,4,1,5,1,1,1,5,1
+0,When a friend of mine asked me out on a date I didn't know what to do,EP,E-t5-base,fear,0,0,0,0,0,0,0,1,1,3,3,2,1,2,4,4,3,3,3,3,4,5,1,4,4,5,1,5
+1,When a friend of mine asked me out on a date I didn't know what to do,EP,E-t5-base,fear,0,0,0,0,0,0,0,1,2,2,3,1,2,2,5,3,2,3,2,1,1,5,1,5,5,5,1,5
+2,When a friend of mine asked me out on a date I didn't know what to do,EP,E-t5-base,fear,0,0,0,0,0,0,0,1,1,1,1,3,1,1,5,4,4,1,3,1,2,5,1,5,5,5,1,5
+0,When a man walks into my house and starts to panic if I am not careful.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,1,1,2,1,1,1,2,3,3,3,3,1,3,2,1,1,1,2,5,2
+1,When a man walks into my house and starts to panic if I am not careful.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,1,2,1,1,2,2,3,2,2,2,1,1,2,1,5,3,1,1,5,2
+2,When a man walks into my house and starts to panic if I am not careful.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,2,2,4,1,2,3,2,3,2,3,3,2,3,3,2,4,2,2,3,3,2
+0,When a stranger approaches me at work and I am  they are real.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,1,2,1,1,1,1,4,1,3,3,3,3,3,5,5,2,3,3,3,3
+1,When a stranger approaches me at work and I am  they are real.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,3,3,3,3,3,3,3,3,3,3,3,3,3,3,1,5,1,1,1,5,1
+2,When a stranger approaches me at work and I am  they are real.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,1,2,1,2,1,1,4,1,3,3,2,3,2,1,5,1,1,1,5,1
+0,When a stranger approaches me at work and I am  they are narcissists,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,5,1
+1,When a stranger approaches me at work and I am  they are narcissists,EP,EA-t5-base,fear,0,0,0,0,0,0,0,2,3,2,2,1,3,3,3,2,1,2,1,1,2,1,2,1,2,1,5,1
+2,When a stranger approaches me at work and I am  they are narcissists,EP,EA-t5-base,fear,0,0,0,0,0,0,0,3,2,1,1,1,2,1,4,1,1,2,1,3,3,1,5,1,1,2,5,1
+0,when I lied to my parents about my sexuality,EP,E-t5-base,shame,0,0,0,0,0,0,0,1,1,5,5,3,3,3,5,5,4,2,2,5,5,5,1,5,5,5,1,5
+1,when I lied to my parents about my sexuality,EP,E-t5-base,shame,0,0,0,0,0,0,0,1,1,5,5,1,4,4,5,5,3,4,1,3,4,5,2,5,5,5,1,5
+2,when I lied to my parents about my sexuality,EP,E-t5-base,shame,0,0,0,0,0,0,0,1,1,1,2,1,1,2,5,5,3,3,1,1,1,1,4,4,2,5,5,2
+0,when I was a teenager for something I did not do or how I should have,EP,EA-t5-base,shame,0,0,0,0,0,0,0,4,3,3,3,1,3,3,3,4,5,3,2,2,2,1,5,1,1,2,4,4
+1,when I was a teenager for something I did not do or how I should have,EP,EA-t5-base,shame,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,3,3
+2,when I was a teenager for something I did not do or how I should have,EP,EA-t5-base,shame,0,0,0,0,0,0,0,4,2,2,4,1,3,4,3,5,4,2,2,3,1,2,5,1,2,3,1,5
+0,When a man cheated on my when I was a teenager,EP,E-t5-base,disgust,0,0,0,0,0,0,0,3,4,2,2,1,4,2,3,1,2,2,1,4,2,1,5,1,1,4,3,2
+1,When a man cheated on my when I was a teenager,EP,E-t5-base,disgust,0,0,0,0,0,0,0,5,5,2,3,1,5,2,5,3,1,1,1,5,3,1,1,1,1,5,5,3
+2,When a man cheated on my when I was a teenager,EP,E-t5-base,disgust,0,0,0,0,0,0,0,5,4,1,2,1,5,2,1,1,1,1,1,4,1,4,3,4,4,5,1,5
+0,"When a friend of mine walked into my house and smelt bad, even though I was",EP,EA-t5-base,disgust,0,0,0,0,0,0,0,1,4,1,3,1,1,1,5,1,1,5,1,1,1,2,5,2,2,3,4,2
+1,"When a friend of mine walked into my house and smelt bad, even though I was",EP,EA-t5-base,disgust,0,0,0,0,0,0,0,2,5,1,1,1,1,1,4,1,3,2,2,4,3,2,5,2,2,4,4,2
+2,"When a friend of mine walked into my house and smelt bad, even though I was",EP,EA-t5-base,disgust,0,0,0,0,0,0,0,1,3,1,2,1,1,2,4,1,3,4,1,4,2,4,1,3,4,4,3,4
+0,When a friend of mine is having an argument with another friend because they don't like what they see,EP,EA-t5-base,anger,0,0,0,0,0,0,0,3,3,4,1,1,1,4,1,2,3,3,1,1,1,1,2,1,1,4,1,3
+1,When a friend of mine is having an argument with another friend because they don't like what they see,EP,EA-t5-base,anger,0,0,0,0,0,0,0,4,4,2,1,1,3,1,5,2,2,1,1,4,4,5,1,5,5,5,4,4
+2,When a friend of mine is having an argument with another friend because they don't like what they see,EP,EA-t5-base,anger,0,0,0,0,0,0,0,1,1,2,1,1,4,1,3,1,1,4,1,2,1,2,4,1,2,2,3,1
+0,When a friend of mine called me out in front of my friends to complain about me being late for work,EP,E-t5-base,anger,0,0,0,0,0,0,0,2,1,2,3,1,2,3,2,5,3,2,2,2,3,2,3,4,3,4,4,3
+1,When a friend of mine called me out in front of my friends to complain about me being late for work,EP,E-t5-base,anger,0,0,0,0,0,0,0,5,4,2,5,1,5,5,5,5,4,1,1,3,1,1,5,1,1,5,3,3
+2,When a friend of mine called me out in front of my friends to complain about me being late for work,EP,E-t5-base,anger,0,0,0,0,0,0,0,2,1,3,5,1,1,4,1,5,4,1,1,4,2,5,1,5,5,5,1,5
+0,When a friend of mine is having an argument with another person because they don't like the way they,EP,EA-t5-base,anger,0,0,0,0,0,0,0,2,1,1,1,1,1,1,3,1,2,1,1,3,1,3,3,2,2,2,3,3
+1,When a friend of mine is having an argument with another person because they don't like the way they,EP,EA-t5-base,anger,0,0,0,0,0,0,0,2,1,2,1,1,2,2,4,1,1,2,1,2,2,5,2,4,4,4,2,4
+2,When a friend of mine is having an argument with another person because they don't like the way they,EP,EA-t5-base,anger,0,0,0,0,0,0,0,4,3,4,3,2,5,3,3,2,3,1,1,2,3,1,5,1,1,2,5,1
+0,when I lied to my parents.,EP,E-t5-base,shame,0,0,0,0,0,0,0,1,2,3,3,2,1,2,5,5,4,2,2,4,5,5,4,4,5,5,3,3
+1,when I lied to my parents.,EP,E-t5-base,shame,0,0,0,0,0,0,0,1,2,2,4,1,2,4,4,5,4,1,1,4,4,5,1,5,5,5,1,5
+2,when I lied to my parents.,EP,E-t5-base,shame,0,0,0,0,0,0,0,1,1,5,5,4,4,4,5,5,5,1,3,5,5,5,5,5,5,5,1,5
+0,when I walked out of a class with no explanation,EP,EA-t5-base,shame,0,0,0,0,0,0,0,1,1,1,1,1,1,1,2,2,1,1,1,1,1,3,2,2,2,3,2,2
+1,when I walked out of a class with no explanation,EP,EA-t5-base,shame,0,0,0,0,0,0,0,2,1,1,2,1,4,2,4,4,5,1,1,3,4,3,2,4,3,4,2,4
+2,when I walked out of a class with no explanation,EP,EA-t5-base,shame,0,0,0,0,0,0,0,3,2,1,3,1,2,3,4,5,5,1,2,2,1,4,1,4,4,5,1,5
+0,When a friend of mine moved away,EP,E-t5-base,sadness,0,0,0,0,0,0,0,2,1,2,3,1,4,2,3,1,1,5,1,2,3,5,2,4,4,4,4,2
+1,When a friend of mine moved away,EP,E-t5-base,sadness,0,0,0,0,0,0,0,1,1,1,1,1,2,1,1,1,1,2,1,1,1,2,5,1,1,2,4,1
+2,When a friend of mine moved away,EP,E-t5-base,sadness,0,0,0,0,0,0,0,1,1,1,4,1,2,2,4,3,2,1,1,4,4,3,2,3,4,4,1,4
+0,I was able to get my first job,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,4,4,4,1,5,3,3,5,1,4,4,5,1,4
+1,I was able to get my first job,EP,E-t5-base,joy,0,0,0,0,0,0,0,3,2,3,1,1,4,1,5,1,2,2,1,3,3,5,1,5,5,5,3,3
+2,I was able to get my first job,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,3,1,4,1,1,5,5,4,1,5,4,5,5,1,5,5,5,1,5
+0,I was able to travel to Europe with my family and spend the week with them.,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,3,4,5,1,5,2,2,5,5,3,5,5,1,5
+1,I was able to travel to Europe with my family and spend the week with them.,EP,EA-t5-base,joy,0,0,0,0,0,0,0,3,4,2,3,4,4,3,2,3,4,3,3,4,5,3,4,3,4,3,3,4
+2,I was able to travel to Europe with my family and spend the week with them.,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,4,5,5,4,5,4,3,4,2,3,3,3,3,3
+0,I was able to get my first job and start the life I wanted.,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,2,1,5,2,1,4,5,4,1,5,3,3,5,1,5,5,5,2,4
+1,I was able to get my first job and start the life I wanted.,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,2,1,5,1,1,5,5,4,2,5,4,3,5,1,5,5,5,1,5
+2,I was able to get my first job and start the life I wanted.,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,2,1,4,2,1,5,5,5,4,4,4,4,5,5,5,5,5,5,4
+0,I was able to ride my bike for the first time and it was a great way to end,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,2,1,4,1,1,4,3,2,4,3,4,4,4,4,4,4,4,4,5
+1,I was able to ride my bike for the first time and it was a great way to end,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,2,1,5,1,1,5,5,5,1,5,4,5,2,4,1,2,2,4,4
+2,I was able to ride my bike for the first time and it was a great way to end,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,2,1,1,1,1,4,5,5,1,5,4,4,1,5,1,1,2,5,1
+0,I was criticized for something I did,EP,E-t5-base,shame,0,0,0,0,0,0,0,2,1,3,3,1,2,3,3,5,4,2,1,4,2,5,2,5,5,5,1,5
+1,I was criticized for something I did,EP,E-t5-base,shame,0,0,0,0,0,0,0,5,4,2,4,1,4,4,3,3,2,3,1,4,1,5,1,5,5,5,1,5
+2,I was criticized for something I did,EP,E-t5-base,shame,0,0,0,0,0,0,0,4,1,1,4,1,2,3,4,4,4,2,1,4,1,5,1,5,5,5,1,5
+0,I was a bad mother and I was  for not being able to do what I normally,EP,EA-t5-base,shame,0,0,0,0,0,0,0,5,4,3,4,1,3,2,3,5,5,1,1,2,3,4,3,4,4,4,3,3
+1,I was a bad mother and I was  for not being able to do what I normally,EP,EA-t5-base,shame,0,0,0,0,0,0,0,3,4,2,5,1,4,5,4,4,3,3,1,4,4,4,5,3,3,4,4,3
+2,I was a bad mother and I was  for not being able to do what I normally,EP,EA-t5-base,shame,0,0,0,0,0,0,0,2,2,2,2,2,2,2,4,4,4,2,2,3,3,4,2,3,3,3,4,3
+0,I was late to school due to a health condition,EP,E-t5-base,shame,0,0,0,0,0,0,0,1,1,2,2,1,2,4,3,2,2,4,1,2,3,5,1,5,5,5,2,5
+1,I was late to school due to a health condition,EP,E-t5-base,shame,0,0,0,0,0,0,0,3,1,3,2,1,4,1,4,2,2,3,1,3,2,5,1,5,5,4,3,3
+2,I was late to school due to a health condition,EP,E-t5-base,shame,0,0,0,0,0,0,0,3,2,5,5,1,5,5,3,1,1,3,1,5,5,5,1,5,5,5,1,5
+0,I was a bad mother and I felt  for not being able to do what I normally,EP,EA-t5-base,shame,0,0,0,0,0,0,0,1,1,2,5,1,4,5,2,5,5,1,1,2,2,2,5,2,2,4,5,1
+1,I was a bad mother and I felt  for not being able to do what I normally,EP,EA-t5-base,shame,0,0,0,0,0,0,0,2,3,4,4,3,4,4,2,1,2,3,3,2,3,3,4,3,3,4,3,4
+2,I was a bad mother and I felt  for not being able to do what I normally,EP,EA-t5-base,shame,0,0,0,0,0,0,0,3,3,4,5,1,4,4,3,5,4,1,1,3,4,1,4,1,1,3,3,3
+0,I was walking alone in a darkened area with no lights on,EP,EA-t5-base,fear,0,0,0,0,0,0,0,2,1,4,1,1,2,1,5,3,2,2,1,4,2,4,3,2,4,5,4,2
+1,I was walking alone in a darkened area with no lights on,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,1,5,1,1,3,1,5,3,3,3,1,4,3,5,1,4,4,5,5,1
+2,I was walking alone in a darkened area with no lights on,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,1,5,1,1,2,1,5,2,2,4,1,3,1,5,1,4,4,5,2,4
+0,A group of young children were shouting offensive words at everyone,EP,E-t5-base,disgust,0,0,0,0,0,0,0,4,4,3,1,1,4,1,3,1,1,3,1,1,1,4,1,4,3,5,3,3
+1,A group of young children were shouting offensive words at everyone,EP,E-t5-base,disgust,0,0,0,0,0,0,0,5,5,3,1,1,4,1,4,1,2,4,1,1,2,5,1,5,5,4,3,3
+2,A group of young children were shouting offensive words at everyone,EP,E-t5-base,disgust,0,0,0,0,0,0,0,3,5,3,1,1,5,5,3,1,1,5,1,2,5,5,1,5,4,5,1,3
+0,I was racially harassed by a friend for no reason in the street.,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,5,4,1,1,1,5,1,4,4,2,5,1,5,1,5,1,5,5,5,1,5
+1,I was racially harassed by a friend for no reason in the street.,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,2,3,2,2,1,4,3,3,1,1,4,1,1,2,2,2,3,3,3,3,4
+2,I was racially harassed by a friend for no reason in the street.,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,5,4,4,1,1,3,2,5,1,1,1,1,4,3,5,1,5,5,5,1,5
+0,I was lied to about my sexuality,EP,E-t5-base,anger,0,0,0,0,0,0,0,2,2,2,2,1,3,3,4,2,3,2,1,3,1,1,4,2,1,1,4,1
+1,I was lied to about my sexuality,EP,E-t5-base,anger,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,4,1,1,1,1,2,1,1,1,1,5,1
+2,I was lied to about my sexuality,EP,E-t5-base,anger,0,0,0,0,0,0,0,4,2,3,1,1,4,2,4,1,1,3,1,3,2,5,1,5,5,5,1,5
+0,I was racially harassed at work for a reason I didn't understand.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,5,5,5,1,1,5,5,5,1,1,5,1,1,1,5,1,4,5,5,2,5
+1,I was racially harassed at work for a reason I didn't understand.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,5,5,4,1,1,5,5,5,1,1,1,1,5,1,5,1,5,5,5,2,4
+2,I was racially harassed at work for a reason I didn't understand.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,5,4,2,1,1,3,1,4,1,1,1,1,2,2,5,5,4,4,5,1,5
+0,I was racially harassed by a friend for no reason at all.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,5,4,3,1,1,5,1,3,4,4,3,1,4,1,4,1,4,4,5,1,4
+1,I was racially harassed by a friend for no reason at all.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,4,4,3,1,1,5,4,4,1,1,2,1,2,2,2,2,3,3,3,1,4
+2,I was racially harassed by a friend for no reason at all.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,4,3,4,1,1,3,2,5,1,1,2,1,4,3,5,1,5,5,5,1,5
+0,I felt a huge spider on my wall when I was walking alone in the dark.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,3,3,1,1,1,1,4,4,4,4,1,2,1,5,5,5,4,2,3,2
+1,I felt a huge spider on my wall when I was walking alone in the dark.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,3,3,1,1,1,1,3,1,2,5,1,3,2,2,4,1,2,2,4,2
+2,I felt a huge spider on my wall when I was walking alone in the dark.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,4,5,1,1,2,2,5,1,2,4,1,4,3,3,2,2,2,2,5,2
+0,I was unable to get a job I wanted,EP,E-t5-base,sadness,0,0,0,0,0,0,0,3,2,4,1,1,2,2,3,1,1,5,1,3,2,2,3,3,4,5,4,2
+1,I was unable to get a job I wanted,EP,E-t5-base,sadness,0,0,0,0,0,0,0,4,1,4,2,1,5,2,3,1,1,5,1,5,2,5,1,5,5,5,1,5
+2,I was unable to get a job I wanted,EP,E-t5-base,sadness,0,0,0,0,0,0,0,5,1,2,4,1,4,4,1,1,1,5,1,4,1,5,2,4,5,5,1,5
+0,I was unable to attend my parents wedding due to covid,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,2,1,2,4,1,4,3,3,2,2,2,1,3,2,5,1,5,5,5,1,5
+1,I was unable to attend my parents wedding due to covid,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,3,4,4,2,3,4,3,3,4,2,3,4,3,4,3,4,3,2,3,4,3
+2,I was unable to attend my parents wedding due to covid,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,3,1,1,5,1,5,3,4,2,1,5,1,3,4,4,2,4,4,4,3,3
+0,I was unable to get a job,EP,E-t5-base,sadness,0,0,0,0,0,0,0,3,1,3,1,2,4,3,5,3,3,3,2,4,3,5,1,5,5,5,1,5
+1,I was unable to get a job,EP,E-t5-base,sadness,0,0,0,0,0,0,0,1,1,1,1,1,5,1,5,1,1,1,1,5,1,5,1,5,3,5,1,5
+2,I was unable to get a job,EP,E-t5-base,sadness,0,0,0,0,0,0,0,3,1,1,1,1,4,1,5,4,5,3,1,5,2,5,1,5,5,5,1,4
+0,I was unable to go to school,EP,E-t5-base,sadness,0,0,0,0,0,0,0,1,2,2,2,2,4,3,4,1,2,4,1,2,3,5,2,4,3,4,4,4
+1,I was unable to go to school,EP,E-t5-base,sadness,0,0,0,0,0,0,0,1,1,1,1,2,3,1,2,1,1,5,2,1,1,2,3,1,2,4,4,2
+2,I was unable to go to school,EP,E-t5-base,sadness,0,0,0,0,0,0,0,2,1,2,1,3,3,1,3,1,1,5,2,3,2,4,2,3,4,4,2,3
+0,I was unable to go to work and my boss didn't want to help me in any way,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,5,3,4,4,1,4,4,3,2,2,2,1,3,2,5,1,4,5,4,4,4
+1,I was unable to go to work and my boss didn't want to help me in any way,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,3,3,4,4,1,4,4,5,3,1,5,1,3,3,5,1,5,5,5,3,3
+2,I was unable to go to work and my boss didn't want to help me in any way,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,3,1,2,3,1,3,3,3,4,3,1,1,3,3,5,1,5,5,5,4,5
+0,I was late to pick my kid up from nursery,EP,E-t5-base,guilt,0,0,0,0,0,0,0,2,2,3,5,1,2,5,5,5,5,2,1,5,5,5,1,5,5,5,1,5
+1,I was late to pick my kid up from nursery,EP,E-t5-base,guilt,0,0,0,0,0,0,0,2,1,1,5,1,2,4,5,5,2,2,1,3,3,5,1,5,5,5,3,5
+2,I was late to pick my kid up from nursery,EP,E-t5-base,guilt,0,0,0,0,0,0,0,1,2,1,5,1,4,4,5,5,5,1,1,2,2,4,2,2,3,5,4,3
+0,I was a bad mother and I felt  for not being able to do what I normally,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,2,3,3,3,1,4,3,3,3,3,3,3,3,3,3,5,3,3,3,4,2
+1,I was a bad mother and I felt  for not being able to do what I normally,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,1,1,4,5,1,4,5,4,5,4,1,1,4,3,2,2,2,2,4,4,2
+2,I was a bad mother and I felt  for not being able to do what I normally,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,4,4,2,5,1,4,5,3,4,4,2,1,2,1,4,2,4,2,4,2,4
+0,I was a bad mother,EP,E-t5-base,guilt,0,0,0,0,0,0,0,3,2,3,4,1,5,4,4,4,4,1,1,3,3,5,1,5,4,3,1,5
+1,I was a bad mother,EP,E-t5-base,guilt,0,0,0,0,0,0,0,2,2,3,5,1,4,5,5,5,5,2,1,3,2,5,1,5,5,5,1,5
+2,I was a bad mother,EP,E-t5-base,guilt,0,0,0,0,0,0,0,3,2,2,3,1,3,3,3,4,3,2,1,4,3,3,2,3,3,3,2,4
+0,I was a bad mother and I felt  for not being able to help my sons,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,3,5,1,5,1,5,5,5,4,5,1,1,5,3,2,4,1,2,5,5,1
+1,I was a bad mother and I felt  for not being able to help my sons,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,1,1,4,5,1,5,5,3,5,1,2,1,4,3,4,2,3,5,5,4,2
+2,I was a bad mother and I felt  for not being able to help my sons,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,4,4,3,5,1,5,5,2,4,4,1,1,3,2,5,1,5,5,5,1,5
+0,When I got to say goodbye to my best friend,EP,E-t5-base,joy,0,0,0,0,0,0,0,2,1,4,1,4,4,1,5,1,1,5,1,5,3,5,1,5,4,5,1,5
+1,When I got to say goodbye to my best friend,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,1,4,1,3,1,1,2,1,1,3,4,4,4,3,4,2,3
+2,When I got to say goodbye to my best friend,EP,E-t5-base,joy,0,0,0,0,0,0,0,3,1,1,3,1,5,3,2,1,1,4,2,3,3,4,3,3,4,4,3,2
+0,When I was able to get my first job and start the life I wanted to live.,EP,E-t5-base,joy,0,0,0,0,0,0,0,2,2,2,3,3,1,2,3,3,3,2,4,4,3,3,2,4,2,3,3,2
+1,When I was able to get my first job and start the life I wanted to live.,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,3,5,4,2,4,2,3,4,3,4,3,5,3,3
+2,When I was able to get my first job and start the life I wanted to live.,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,2,4,4,4,5,4,4,1,4,1,2,5,5,1
+0,When I got a job I really wanted because I had been trying for months to get.,EP,EA-t5-base,joy,0,0,0,0,0,0,0,2,1,2,1,5,1,1,4,5,4,3,4,4,3,2,4,1,2,2,4,2
+1,When I got a job I really wanted because I had been trying for months to get.,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,3,3,3,3,4,3,3,1,4,1,1,1,3,3
+2,When I got a job I really wanted because I had been trying for months to get.,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,4,1,1,5,5,5,1,4,5,4,2,4,1,2,3,1,5
+0,When I lied to my friends about where I was going in my relationship.,EP,EA-t5-base,shame,0,0,0,0,0,0,0,1,1,1,2,1,2,2,3,5,4,2,3,3,3,4,4,3,4,5,3,3
+1,When I lied to my friends about where I was going in my relationship.,EP,EA-t5-base,shame,0,0,0,0,0,0,0,1,2,2,2,1,2,2,5,5,5,1,1,5,1,4,2,2,3,3,2,3
+2,When I lied to my friends about where I was going in my relationship.,EP,EA-t5-base,shame,0,0,0,0,0,0,0,2,2,3,5,1,3,5,5,5,4,1,2,5,4,4,2,3,3,4,3,2
+0,When I lied to my mother,EP,E-t5-base,shame,0,0,0,0,0,0,0,1,1,5,4,2,5,1,5,4,4,2,3,5,4,5,1,5,5,5,1,5
+1,When I lied to my mother,EP,E-t5-base,shame,0,0,0,0,0,0,0,1,1,1,1,1,1,1,4,3,1,3,1,4,1,4,3,4,4,4,2,4
+2,When I lied to my mother,EP,E-t5-base,shame,0,0,0,0,0,0,0,1,4,5,5,1,4,5,4,5,5,1,1,5,4,5,1,5,5,5,1,5
+0,When I lied to my friend,EP,E-t5-base,shame,0,0,0,0,0,0,0,2,3,4,4,1,4,5,5,5,5,1,1,5,5,5,2,5,5,5,1,5
+1,When I lied to my friend,EP,E-t5-base,shame,0,0,0,0,0,0,0,2,3,2,2,3,4,2,3,4,4,2,1,3,4,2,4,3,3,2,2,3
+2,When I lied to my friend,EP,E-t5-base,shame,0,0,0,0,0,0,0,2,2,4,4,1,4,4,5,4,3,1,1,4,2,3,4,3,3,5,3,3
+0,When I lied to someone about my sexuality to get them to stop using my drugs.,EP,EA-t5-base,shame,0,0,0,0,0,0,0,3,3,2,4,1,2,2,4,4,4,2,1,4,3,1,5,1,1,3,3,3
+1,When I lied to someone about my sexuality to get them to stop using my drugs.,EP,EA-t5-base,shame,0,0,0,0,0,0,0,2,2,1,1,1,1,1,3,2,3,1,1,3,3,2,5,2,2,2,4,2
+2,When I lied to someone about my sexuality to get them to stop using my drugs.,EP,EA-t5-base,shame,0,0,0,0,0,0,0,3,3,4,1,1,1,2,3,5,3,2,2,4,4,3,3,3,3,3,3,3
+0,When I was in a car accident,EP,E-t5-base,fear,0,0,0,0,0,0,0,2,1,1,3,1,3,4,4,3,3,3,1,2,3,4,5,2,2,4,5,3
+1,When I was in a car accident,EP,E-t5-base,fear,0,0,0,0,0,0,0,3,1,5,5,1,5,3,5,3,3,3,1,5,1,4,1,4,5,5,1,5
+2,When I was in a car accident,EP,E-t5-base,fear,0,0,0,0,0,0,0,4,2,5,2,1,4,1,4,3,2,3,1,3,1,5,1,4,4,4,2,4
+0,When I had to go into a car accident because I didn't know what was wrong with me,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,1,5,1,1,5,4,5,3,2,1,1,4,1,1,5,1,1,1,4,1
+1,When I had to go into a car accident because I didn't know what was wrong with me,EP,EA-t5-base,fear,0,0,0,0,0,0,0,3,3,4,2,1,4,4,5,5,5,1,1,5,5,2,4,1,2,3,5,1
+2,When I had to go into a car accident because I didn't know what was wrong with me,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,5,1
+0,When I was robbed at gunpoint by a man,EP,E-t5-base,fear,0,0,0,0,0,0,0,4,4,5,1,1,4,4,3,1,1,5,1,3,1,3,4,1,1,4,1,2
+1,When I was robbed at gunpoint by a man,EP,E-t5-base,fear,0,0,0,0,0,0,0,4,3,5,2,1,4,4,5,1,2,5,1,4,2,2,2,1,2,4,3,3
+2,When I was robbed at gunpoint by a man,EP,E-t5-base,fear,0,0,0,0,0,0,0,3,3,5,1,1,4,2,3,1,2,2,1,4,1,2,4,2,3,3,3,2
+0,When I was alone in front of a large group of large groups of people.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,1,2,2,1,4,4,4,1,4,4,1,2,3,1,5,3,1,4,2,2
+1,When I was alone in front of a large group of large groups of people.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,1,1,1,1,1,1,5,5,5,3,1,2,2,1,5,1,1,1,5,1
+2,When I was alone in front of a large group of large groups of people.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,4,4,5,1,1,5,5,3,3,3,1,1,4,1,3,3,3,3,5,5,3
+0,when I saw a dead frog.,EP,E-t5-base,disgust,0,0,0,0,0,0,0,1,5,1,1,1,3,1,2,1,1,4,2,1,1,2,4,1,1,5,3,2
+1,when I saw a dead frog.,EP,E-t5-base,disgust,0,0,0,0,0,0,0,2,2,2,2,1,4,1,2,1,1,5,1,1,1,5,1,5,5,4,3,3
+2,when I saw a dead frog.,EP,E-t5-base,disgust,0,0,0,0,0,0,0,1,3,1,1,1,2,1,1,1,1,5,1,1,2,3,5,2,3,3,2,4
+0,I felt a lot of  when I saw someone else's face in the mirror.,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,4,1,3,3,3,3,1,5,1,1,1,5,1
+1,I felt a lot of  when I saw someone else's face in the mirror.,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,1,3,5,1,1,4,1,4,1,4,2,1,4,4,2,5,1,2,4,5,2
+2,I felt a lot of  when I saw someone else's face in the mirror.,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,1,1,1,1,1,1,1,3,3,1,3,1,1,1,1,5,1,1,1,5,1
+0,When I was unable to get a job I wanted because of covid,EP,E-t5-base,sadness,0,0,0,0,0,0,0,2,2,3,1,1,4,2,3,1,1,5,1,3,2,2,5,1,2,3,4,2
+1,When I was unable to get a job I wanted because of covid,EP,E-t5-base,sadness,0,0,0,0,0,0,0,3,2,4,2,1,5,2,3,1,1,5,1,5,3,1,5,1,1,5,5,3
+2,When I was unable to get a job I wanted because of covid,EP,E-t5-base,sadness,0,0,0,0,0,0,0,5,1,2,4,1,4,4,1,1,1,5,1,4,1,5,1,5,5,5,1,5
+0,When I was told my partner was leaving for college because I felt alone and like I didn't have,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,1,1,2,1,1,3,1,2,1,1,5,1,1,1,2,5,3,2,3,2,4
+1,When I was told my partner was leaving for college because I felt alone and like I didn't have,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,2,1,2,1,1,5,3,3,2,1,1,1,1,2,1,5,3,2,2,4,2
+2,When I was told my partner was leaving for college because I felt alone and like I didn't have,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,3,3,3,3,2,4,2,3,3,3,3,2,3,3,3,4,2,2,3,3,2
+0,When I did something wrong in my job and my boss told me to take responsibility for my actions and I,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,2,1,3,3,1,2,4,5,5,3,1,1,3,3,3,3,4,4,4,3,3
+1,When I did something wrong in my job and my boss told me to take responsibility for my actions and I,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,2,1,3,3,1,2,2,4,3,3,3,1,4,1,1,5,1,1,1,4,2
+2,When I did something wrong in my job and my boss told me to take responsibility for my actions and I,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,2,2,5,5,1,4,5,5,5,4,1,1,5,4,2,5,1,1,4,5,1
+0,When I was caught cheating on a test,EP,E-t5-base,guilt,0,0,0,0,0,0,0,2,2,3,5,1,2,5,5,5,3,1,1,3,5,5,1,5,5,5,2,4
+1,When I was caught cheating on a test,EP,E-t5-base,guilt,0,0,0,0,0,0,0,1,2,2,3,1,1,2,5,5,4,1,4,4,3,5,1,4,5,5,1,5
+2,When I was caught cheating on a test,EP,E-t5-base,guilt,0,0,0,0,0,0,0,3,3,5,5,1,2,5,5,5,5,5,5,5,5,5,1,5,3,5,1,5
+0,When I did something wrong in my job and my boss called me in to tell me what had happened.,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,1,1,2,1,1,2,1,5,5,1,5,1,2,2,5,1,5,5,5,3,5
+1,When I did something wrong in my job and my boss called me in to tell me what had happened.,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,1,1,3,3,1,2,2,4,5,2,2,1,1,4,3,3,3,3,4,2,4
+2,When I did something wrong in my job and my boss called me in to tell me what had happened.,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,2,2,3,3,2,3,3,3,4,2,2,2,3,3,3,3,3,3,3,3,3
+0,When I was late to pick my child up,EP,E-t5-base,guilt,0,0,0,0,0,0,0,2,2,1,4,2,4,4,4,5,4,3,2,3,4,4,4,3,2,4,4,4
+1,When I was late to pick my child up,EP,E-t5-base,guilt,0,0,0,0,0,0,0,2,4,3,5,1,5,5,3,3,4,3,1,2,2,3,4,3,2,4,2,2
+2,When I was late to pick my child up,EP,E-t5-base,guilt,0,0,0,0,0,0,0,1,1,1,4,1,4,4,3,4,4,1,1,1,1,3,4,4,2,4,3,2
+0,When I did something wrong in work and my boss called me in to tell me what had happened and I,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,1,1,3,3,1,3,4,5,5,3,1,1,5,3,2,4,5,3,4,1,5
+1,When I did something wrong in work and my boss called me in to tell me what had happened and I,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,2,1,4,3,1,3,3,4,4,4,4,1,4,4,2,4,2,3,3,4,2
+2,When I did something wrong in work and my boss called me in to tell me what had happened and I,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,3,3,5,3,1,4,5,5,5,3,2,1,5,1,4,4,4,3,5,3,4
+0,I had a baby and I felt  because I had been able to have it all.,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,4,5,4,1,4,5,5,2,4,2,3,4,1,5
+1,I had a baby and I felt  because I had been able to have it all.,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,2,2,1,3,1,1,1,4,5,3,2,4,4,1,5,2,4,1,4,2
+2,I had a baby and I felt  because I had been able to have it all.,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,5,4,2,1,4,4,4,2,5,2,2,4,5,2
+0,I had a baby with my first child and it felt so good to see them grow up and be,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,5,5,5,1,5,5,5,2,4,2,3,5,3,3
+1,I had a baby with my first child and it felt so good to see them grow up and be,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,3,2,2,2,5,5,4,2,5,1,2,3,5,1
+2,I had a baby with my first child and it felt so good to see them grow up and be,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,4,1,1,1,3,4,3,4,4,4,1,5,1,1,2,3,3
+0,I had to go back to school after a long,EP,E-t5-base,shame,0,0,0,0,0,0,0,2,2,2,1,2,2,1,5,1,1,5,1,4,1,4,2,5,4,5,1,5
+1,I had to go back to school after a long,EP,E-t5-base,shame,0,0,0,0,0,0,0,3,1,1,2,1,3,1,3,1,1,4,1,4,5,4,2,4,5,5,1,4
+2,I had to go back to school after a long,EP,E-t5-base,shame,0,0,0,0,0,0,0,2,2,1,1,2,2,1,5,2,2,4,2,4,3,4,2,2,3,5,3,3
+0,I had to tell my partner I was a bad mother,EP,EA-t5-base,shame,0,0,0,0,0,0,0,1,4,4,4,1,5,5,5,5,4,2,1,5,3,3,1,4,4,5,1,5
+1,I had to tell my partner I was a bad mother,EP,EA-t5-base,shame,0,0,0,0,0,0,0,1,1,4,5,1,4,5,5,4,3,1,1,5,4,5,5,5,5,5,3,3
+2,I had to tell my partner I was a bad mother,EP,EA-t5-base,shame,0,0,0,0,0,0,0,1,1,5,5,1,5,5,3,2,1,4,1,5,3,5,1,4,3,4,2,4
+0,I had to go back to school after a long time apart due to COVID-19,EP,E-t5-base,shame,0,0,0,0,0,0,0,3,1,3,1,2,2,1,4,5,5,4,2,4,3,4,1,5,5,5,3,5
+1,I had to go back to school after a long time apart due to COVID-19,EP,E-t5-base,shame,0,0,0,0,0,0,0,3,1,1,1,2,1,1,5,1,2,5,2,3,2,4,1,4,3,5,1,3
+2,I had to go back to school after a long time apart due to COVID-19,EP,E-t5-base,shame,0,0,0,0,0,0,0,2,1,3,3,2,2,3,3,1,1,5,2,2,3,4,1,5,5,5,1,5
+0,I had to tell my partner I was tired and let down for something I had done,EP,EA-t5-base,shame,0,0,0,0,0,0,0,2,1,3,5,1,4,5,3,5,4,1,1,2,2,3,3,3,3,2,4,2
+1,I had to tell my partner I was tired and let down for something I had done,EP,EA-t5-base,shame,0,0,0,0,0,0,0,2,3,4,3,4,3,4,3,4,3,3,4,3,2,3,3,4,3,3,3,4
+2,I had to tell my partner I was tired and let down for something I had done,EP,EA-t5-base,shame,0,0,0,0,0,0,0,2,1,3,4,1,4,2,4,5,4,4,4,4,3,1,5,1,2,1,3,3
+0,I had a car crash.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,3,1,5,3,1,2,3,5,3,3,3,1,5,3,5,1,5,5,5,1,5
+1,I had a car crash.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,5,1,5,3,1,1,1,5,3,5,1,1,5,1,5,1,5,5,3,1,5
+2,I had a car crash.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,3,2,5,4,1,5,4,5,3,2,3,1,5,1,5,1,5,5,5,2,4
+0,I had to go on a rollercoaster,EP,E-t5-base,fear,0,0,0,0,0,0,0,3,3,3,1,1,1,1,5,1,1,1,1,3,1,5,2,5,5,5,1,5
+1,I had to go on a rollercoaster,EP,E-t5-base,fear,0,0,0,0,0,0,0,2,1,3,1,1,1,1,4,3,1,2,2,1,3,4,1,4,3,3,3,4
+2,I had to go on a rollercoaster,EP,E-t5-base,fear,0,0,0,0,0,0,0,1,1,3,1,2,2,1,5,3,3,1,2,3,2,5,1,4,5,4,2,4
+0,I had to go into a car accident.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,1,1,2,5,2
+1,I had to go into a car accident.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,3,2,4,2,1,3,1,1,1,1,4,1,1,3,1,5,1,1,1,5,1
+2,I had to go into a car accident.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,3,1,4,2,1,3,1,5,3,1,3,1,4,3,2,5,1,2,1,5,1
+0,I had to clean the toilets,EP,E-t5-base,disgust,0,0,0,0,0,0,0,4,5,1,1,1,1,1,4,2,4,1,1,4,4,5,2,5,4,5,1,5
+1,I had to clean the toilets,EP,E-t5-base,disgust,0,0,0,0,0,0,0,4,5,1,1,1,2,2,4,1,2,2,1,4,5,4,4,3,4,5,1,4
+2,I had to clean the toilets,EP,E-t5-base,disgust,0,0,0,0,0,0,0,3,5,2,2,1,4,4,5,2,4,1,1,4,2,5,2,4,4,5,2,4
+0,I had a fight with my girlfriend and she yelled at me for no reason.,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,4,1,2,2,1,3,2,4,4,4,3,1,3,2,5,1,5,5,5,2,4
+1,I had a fight with my girlfriend and she yelled at me for no reason.,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,3,4,3,3,4,3,4,3,4,3,3,4,3,2,3,4,3,2,3,4,4
+2,I had a fight with my girlfriend and she yelled at me for no reason.,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,3,2,3,2,1,3,3,3,3,3,2,1,3,3,2,3,2,3,3,3,3
+0,I had to go back to work after a long time apart due to COVID-19,EP,E-t5-base,anger,0,0,0,0,0,0,0,1,1,2,1,1,1,1,3,2,1,4,1,2,3,3,4,2,2,5,4,2
+1,I had to go back to work after a long time apart due to COVID-19,EP,E-t5-base,anger,0,0,0,0,0,0,0,3,2,3,1,1,4,1,5,1,2,4,1,4,3,5,1,5,5,5,3,3
+2,I had to go back to work after a long time apart due to COVID-19,EP,E-t5-base,anger,0,0,0,0,0,0,0,1,1,3,1,2,3,1,3,1,3,5,2,5,4,4,2,5,3,5,3,3
+0,I had to tell my partner I was a liar and he was rude to me,EP,EA-t5-base,anger,0,0,0,0,0,0,0,3,1,2,5,1,4,5,3,4,5,1,1,3,2,5,1,3,5,3,4,3
+1,I had to tell my partner I was a liar and he was rude to me,EP,EA-t5-base,anger,0,0,0,0,0,0,0,3,3,4,2,3,3,4,3,4,2,3,3,4,3,3,4,3,2,3,3,4
+2,I had to tell my partner I was a liar and he was rude to me,EP,EA-t5-base,anger,0,0,0,0,0,0,0,1,1,4,4,1,4,4,4,5,5,2,1,2,3,4,2,3,4,4,3,3
+0,when i saw my friend being cheated on,EP,E-t5-base,anger,0,0,0,0,0,0,0,5,5,3,3,1,4,1,5,1,1,4,1,3,1,2,5,3,2,3,3,1
+1,when i saw my friend being cheated on,EP,E-t5-base,anger,0,0,0,0,0,0,0,4,4,2,4,1,3,2,5,1,4,5,1,1,1,3,2,2,2,5,2,2
+2,when i saw my friend being cheated on,EP,E-t5-base,anger,0,0,0,0,0,0,0,4,4,2,1,1,3,2,4,1,1,3,1,3,1,3,3,4,4,4,4,3
+0,I felt a lot of  when I saw someone else doing something I didn't like.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,4,3,3,3,2,2,3,4,3,4,2,2,2,3,4,3,3,4,2,3,2
+1,I felt a lot of  when I saw someone else doing something I didn't like.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,3,3,1,4,1,3,3,1,1,1,1,1,2,2,1,5,2,1,1,5,1
+2,I felt a lot of  when I saw someone else doing something I didn't like.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,4,4,4,2,1,4,2,2,1,2,2,2,3,2,3,5,3,3,4,3,3
+0,I had to move away from home,EP,E-t5-base,sadness,0,0,0,0,0,0,0,2,3,3,3,2,2,2,4,4,3,3,4,4,4,4,3,4,4,4,4,4
+1,I had to move away from home,EP,E-t5-base,sadness,0,0,0,0,0,0,0,1,1,3,2,2,4,1,2,5,3,3,3,5,4,5,1,5,5,5,2,4
+2,I had to move away from home,EP,E-t5-base,sadness,0,0,0,0,0,0,0,1,1,2,1,3,3,1,3,3,4,3,2,4,2,4,1,4,4,4,1,4
+0,I had to go back to work after a long time apart due to health concerns.,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,1,1,3,3,2,4,2,3,1,2,5,1,2,3,3,4,2,4,5,3,3
+1,I had to go back to work after a long time apart due to health concerns.,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,2,1,2,3,3,1,2,5,1,3,5,1,4,1,3,2,3,4,5,1,4
+2,I had to go back to work after a long time apart due to health concerns.,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,2,1,4,4,3,3,4,3,2,1,4,1,5,2,4,1,2,4,5,3,3
+0,I had to leave my dog in the car,EP,E-t5-base,guilt,0,0,0,0,0,0,0,3,2,4,3,3,2,1,3,3,3,3,4,4,3,3,2,2,2,2,3,1
+1,I had to leave my dog in the car,EP,E-t5-base,guilt,0,0,0,0,0,0,0,3,2,4,5,1,5,4,2,4,1,3,1,2,1,2,4,2,1,1,3,3
+2,I had to leave my dog in the car,EP,E-t5-base,guilt,0,0,0,0,0,0,0,2,1,1,3,1,2,3,3,3,3,1,1,2,3,2,3,2,3,3,2,2
+0,I had to tell my partner I didn't care for him,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,2,1,3,4,1,5,3,4,4,4,2,1,4,4,5,1,5,4,5,2,4
+1,I had to tell my partner I didn't care for him,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,2,2,3,3,1,4,3,5,5,4,3,1,5,5,5,1,5,5,5,3,3
+2,I had to tell my partner I didn't care for him,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,2,1,4,4,2,3,3,4,5,5,1,2,4,3,3,3,4,3,5,2,4
+0,I got my new car,EP,E-t5-base,joy,0,0,0,0,0,0,0,3,1,1,1,4,3,1,5,1,2,3,4,4,3,4,2,4,3,4,2,4
+1,I got my new car,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,4,1,1,2,1,3,1,4,1,2,3,2,2,2,3,2,3
+2,I got my new car,EP,E-t5-base,joy,0,0,0,0,0,0,0,4,1,1,1,1,2,1,5,3,1,4,1,4,2,4,1,5,5,5,1,5
+0,when I saw my partner being cheated on,EP,E-t5-base,anger,0,0,0,0,0,0,0,1,3,2,4,2,1,3,3,5,5,1,4,3,4,4,2,3,1,2,5,1
+1,when I saw my partner being cheated on,EP,E-t5-base,anger,0,0,0,0,0,0,0,4,4,2,1,1,4,1,3,2,1,2,1,3,2,2,5,5,4,1,5,1
+2,when I saw my partner being cheated on,EP,E-t5-base,anger,0,0,0,0,0,0,0,5,5,5,5,1,5,5,5,5,5,5,1,4,4,5,5,5,5,5,1,5
+0,when a friend of mine was being abused.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,3,4,3,3,1,4,4,5,1,3,5,1,1,2,5,4,3,3,4,3,3
+1,when a friend of mine was being abused.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,5,5,4,3,1,5,4,4,1,1,5,1,4,1,5,3,3,4,5,4,3
+2,when a friend of mine was being abused.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,5,5,5,2,1,5,5,4,1,1,3,1,4,2,4,2,5,3,5,1,5
+0,I got a lot of compliments for something I did not do,EP,E-t5-base,shame,0,0,0,0,0,0,0,1,2,2,3,3,1,2,3,2,3,3,3,2,3,5,2,4,5,5,2,4
+1,I got a lot of compliments for something I did not do,EP,E-t5-base,shame,0,0,0,0,0,0,0,1,1,1,3,2,1,3,3,1,1,4,4,3,1,5,1,5,5,5,1,5
+2,I got a lot of compliments for something I did not do,EP,E-t5-base,shame,0,0,0,0,0,0,0,1,4,5,5,4,4,5,5,1,4,1,5,5,5,5,5,5,5,5,1,5
+0,I got a bad grade in school,EP,EA-t5-base,shame,0,0,0,0,0,0,0,4,3,3,2,1,4,3,5,5,5,1,1,3,3,5,1,3,3,4,2,4
+1,I got a bad grade in school,EP,EA-t5-base,shame,0,0,0,0,0,0,0,3,1,4,4,1,3,4,2,4,3,2,1,4,3,4,3,3,3,5,2,4
+2,I got a bad grade in school,EP,EA-t5-base,shame,0,0,0,0,0,0,0,2,1,3,3,1,4,4,1,1,4,1,1,4,2,4,1,4,3,5,1,4
+0,I got a bad mark on my final day at work,EP,E-t5-base,shame,0,0,0,0,0,0,0,4,2,4,4,2,4,4,5,5,5,3,2,4,2,5,1,4,4,4,1,5
+1,I got a bad mark on my final day at work,EP,E-t5-base,shame,0,0,0,0,0,0,0,1,1,2,4,1,3,3,3,5,4,3,1,1,1,3,2,4,3,3,2,3
+2,I got a bad mark on my final day at work,EP,E-t5-base,shame,0,0,0,0,0,0,0,3,4,2,4,1,4,3,3,5,4,1,1,4,4,3,4,4,4,4,4,2
+0,I got a bad mark on my test,EP,E-t5-base,fear,0,0,0,0,0,0,0,4,2,4,4,1,4,4,4,5,5,1,1,4,4,4,1,4,4,4,1,4
+1,I got a bad mark on my test,EP,E-t5-base,fear,0,0,0,0,0,0,0,4,3,5,4,1,5,4,5,4,2,1,1,4,4,5,1,5,5,5,1,5
+2,I got a bad mark on my test,EP,E-t5-base,fear,0,0,0,0,0,0,0,2,1,1,3,1,2,3,4,4,4,1,1,4,4,3,2,3,3,4,2,3
+0,I got a lot of blood in my blood and had to go to the hospital to get checked out,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,3,1,2,3,2,1,2,3,3
+1,I got a lot of blood in my blood and had to go to the hospital to get checked out,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,2,3,2,1,2,2,4,3,3,2,1,1,2,4,4,2,2,2,4,3
+2,I got a lot of blood in my blood and had to go to the hospital to get checked out,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,1,2,1,2,2,1,3,2,3,2,2,3,3,2,4,2,2,2,3,2
+0,I got a thigh injury,EP,E-t5-base,fear,0,0,0,0,0,0,0,2,1,4,1,1,3,1,5,2,1,4,1,4,2,4,2,5,3,5,1,5
+1,I got a thigh injury,EP,E-t5-base,fear,0,0,0,0,0,0,0,1,1,2,1,1,2,2,5,4,3,2,1,4,3,5,1,3,3,2,1,3
+2,I got a thigh injury,EP,E-t5-base,fear,0,0,0,0,0,0,0,2,2,4,2,1,4,2,5,5,2,3,1,4,2,4,2,3,4,5,3,3
+0,I got a lot of blood in my urine and had to put my nappy back on,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,3,5,1,1,5,4,5,4,4,2,1,4,3,2,5,1,2,4,4,2
+1,I got a lot of blood in my urine and had to put my nappy back on,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,2,3,1,1,2,2,5,3,3,3,1,4,2,2,3,1,1,1,5,1
+2,I got a lot of blood in my urine and had to put my nappy back on,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,3,5,1,1,5,3,5,3,1,3,1,5,1,3,3,3,3,4,4,4
+0,I got a call from my friend claiming that my mum had snuck out from under,EP,E-t5-base,disgust,0,0,0,0,0,0,0,4,4,4,1,1,1,4,4,1,1,2,1,4,1,2,4,2,2,2,3,3
+1,I got a call from my friend claiming that my mum had snuck out from under,EP,E-t5-base,disgust,0,0,0,0,0,0,0,2,3,1,1,1,1,4,3,1,2,3,1,3,4,2,4,4,4,3,2,4
+2,I got a call from my friend claiming that my mum had snuck out from under,EP,E-t5-base,disgust,0,0,0,0,0,0,0,3,3,2,1,1,2,3,5,1,1,2,1,3,1,2,5,2,2,2,4,2
+0,I got a job offer and the company refused to pay for my services and then they said they couldn,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,3,3,1,1,1,1,1,3,1,1,5,1,3,3,3,4,1,2,2,3,3
+1,I got a job offer and the company refused to pay for my services and then they said they couldn,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,4,1,1,1,1,2,2,4,3,2,3,1,1,1,1,5,3,3,4,2,3
+2,I got a job offer and the company refused to pay for my services and then they said they couldn,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,4,4,2,1,1,4,1,4,2,2,4,1,2,2,3,4,3,3,3,2,4
+0,I got a call from my mother,EP,E-t5-base,disgust,0,0,0,0,0,0,0,5,1,3,3,1,5,4,4,4,3,2,1,3,1,4,2,4,4,2,1,5
+1,I got a call from my mother,EP,E-t5-base,disgust,0,0,0,0,0,0,0,2,1,1,1,1,4,1,5,1,2,4,1,1,4,2,5,4,2,4,4,2
+2,I got a call from my mother,EP,E-t5-base,disgust,0,0,0,0,0,0,0,3,1,2,2,1,2,1,2,1,1,1,1,1,1,1,5,1,1,2,5,1
+0,I got a job offer and the company refused to pay for my services and I felt  that,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,5,4,2,2,1,3,2,3,2,3,3,2,3,3,3,4,2,3,4,3,3
+1,I got a job offer and the company refused to pay for my services and I felt  that,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,5,5,1,1,1,5,1,4,1,1,1,1,4,1,4,5,4,4,4,4,2
+2,I got a job offer and the company refused to pay for my services and I felt  that,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,5,5,2,1,1,5,1,5,1,2,4,1,5,3,5,2,5,3,5,1,5
+0,I got a call from my dad saying I couldn't come visit him,EP,E-t5-base,sadness,0,0,0,0,0,0,0,5,3,1,1,1,5,2,3,2,2,1,1,3,2,4,2,3,3,4,3,3
+1,I got a call from my dad saying I couldn't come visit him,EP,E-t5-base,sadness,0,0,0,0,0,0,0,2,1,1,1,1,4,1,5,1,1,2,1,1,2,5,2,5,5,5,1,5
+2,I got a call from my dad saying I couldn't come visit him,EP,E-t5-base,sadness,0,0,0,0,0,0,0,3,1,2,1,1,5,1,1,1,1,5,1,1,1,5,1,5,1,5,1,5
+0,I got a call from my dad saying I didn't want him to see me through his difficult,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,4,4,4,2,1,4,2,3,3,3,4,2,2,2,2,5,2,2,2,4,2
+1,I got a call from my dad saying I didn't want him to see me through his difficult,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,4,1,3,1,1,4,1,3,2,2,3,1,4,2,3,4,2,2,4,4,2
+2,I got a call from my dad saying I didn't want him to see me through his difficult,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,1,1,3,1,1,4,2,5,1,1,1,1,3,1,2,2,1,2,3,2,1
+0,I got to take a shower at my friend's house,EP,E-t5-base,guilt,0,0,0,0,0,0,0,2,2,1,2,1,2,1,3,3,4,1,1,3,2,3,2,1,1,1,5,1
+1,I got to take a shower at my friend's house,EP,E-t5-base,guilt,0,0,0,0,0,0,0,1,1,1,1,1,1,1,2,3,2,2,1,1,2,1,5,3,2,1,5,1
+2,I got to take a shower at my friend's house,EP,E-t5-base,guilt,0,0,0,0,0,0,0,1,1,1,1,1,1,5,5,1,1,2,5,5,5,5,4,1,1,4,5,1
+0,I got cheated on,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,5,5,5,1,1,5,5,1,1,1,5,1,1,5,5,1,5,5,5,5,5
+1,I got cheated on,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,5,5,3,1,1,5,1,5,1,1,1,1,4,4,4,4,3,3,5,4,3
+2,I got cheated on,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,5,5,2,2,1,5,2,4,1,1,1,1,1,2,4,4,4,4,5,3,3
+0,When my boyfriend told me he loved me,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,2,1,5,2,2,4,3,3,3,3,4,3,3,3,2,2,4,4,4
+1,When my boyfriend told me he loved me,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,5,1,1,2,5,5,4,5,1,5,5,5,1,5
+2,When my boyfriend told me he loved me,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,3,1,1,1,5,1,2,5,1,5,4,4,1,4
+0,When my partner and I got to spend the day together enjoying each other's company and having fun together,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,5,4,4,5,5,4,4,5,1,5,5,5,1,5
+1,When my partner and I got to spend the day together enjoying each other's company and having fun together,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,4,4,4,1,5,3,4,3,4,2,2,5,2,2
+2,When my partner and I got to spend the day together enjoying each other's company and having fun together,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,4,5,5,1,5,4,4,5,2,4,4,5,2,4
+0,When my husband and I got to spend the day together,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,4,5,5,1,5,4,5,1,5,2,1,4,4,1
+1,When my husband and I got to spend the day together,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,2,5,4,1,5,3,2,4,4,2,3,4,4,1
+2,When my husband and I got to spend the day together,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,2,4,5,1,5,4,4,2,4,2,3,2,4,2
+0,When my husband asked me to marry him because I felt like I had made a big step forward in,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,2,1,5,1,1,3,3,3,2,5,2,3,1,5,1,1,5,2,4
+1,When my husband asked me to marry him because I felt like I had made a big step forward in,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,5,3,5,1,5,4,5,2,3,2,2,5,3,3
+2,When my husband asked me to marry him because I felt like I had made a big step forward in,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,4,3,5,1,4,3,4,3,4,4,2,5,1,5
+0,When my boyfriend cheated on me,EP,E-t5-base,shame,0,0,0,0,0,0,0,5,5,3,1,1,5,2,4,1,1,4,1,2,1,1,4,1,1,2,3,1
+1,When my boyfriend cheated on me,EP,E-t5-base,shame,0,0,0,0,0,0,0,4,2,1,2,1,5,2,3,1,1,4,1,1,2,2,3,2,2,5,3,1
+2,When my boyfriend cheated on me,EP,E-t5-base,shame,0,0,0,0,0,0,0,5,5,3,1,1,4,2,5,2,2,3,1,3,2,1,5,2,1,3,5,1
+0,When my boyfriend cheated on me for something I did not do,EP,EA-t5-base,shame,0,0,0,0,0,0,0,5,5,2,3,1,2,3,4,3,3,3,4,3,3,2,3,2,3,4,3,3
+1,When my boyfriend cheated on me for something I did not do,EP,EA-t5-base,shame,0,0,0,0,0,0,0,5,5,1,1,1,5,1,3,1,1,1,1,4,1,4,4,4,4,5,2,4
+2,When my boyfriend cheated on me for something I did not do,EP,EA-t5-base,shame,0,0,0,0,0,0,0,5,5,2,2,1,5,3,4,1,2,2,1,4,4,4,2,5,3,5,2,4
+0,When my partner cheated on me for something I did,EP,EA-t5-base,shame,0,0,0,0,0,0,0,5,5,5,1,1,4,5,5,1,1,1,1,3,3,4,1,4,4,4,1,5
+1,When my partner cheated on me for something I did,EP,EA-t5-base,shame,0,0,0,0,0,0,0,5,3,2,3,1,5,3,4,4,2,2,1,4,3,3,4,2,2,4,4,2
+2,When my partner cheated on me for something I did,EP,EA-t5-base,shame,0,0,0,0,0,0,0,2,2,1,3,1,4,3,3,5,5,1,1,3,4,4,1,4,4,5,1,4
+0,When my father told me he was a rapist,EP,E-t5-base,disgust,0,0,0,0,0,0,0,5,5,4,4,1,4,4,5,1,1,3,1,4,3,4,2,4,4,5,3,3
+1,When my father told me he was a rapist,EP,E-t5-base,disgust,0,0,0,0,0,0,0,4,4,1,2,1,4,4,5,1,1,5,1,2,2,5,1,5,5,5,1,5
+2,When my father told me he was a rapist,EP,E-t5-base,disgust,0,0,0,0,0,0,0,5,5,5,5,1,5,5,4,1,1,5,1,3,1,5,1,5,5,5,1,5
+0,When my dog ate my food because it was so poor quality,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,2,3,2,2,1,2,2,2,1,2,2,2,2,2,1,4,2,3,3,4,2
+1,When my dog ate my food because it was so poor quality,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,3,4,1,1,1,3,3,3,3,4,4,1,3,1,3,5,2,2,3,5,1
+2,When my dog ate my food because it was so poor quality,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,1,2,1,1,1,2,1,1,1,1,1,1,1,1,2,4,2,3,4,5,1
+0,When my mother told me my stepmother had cheated on me,EP,E-t5-base,disgust,0,0,0,0,0,0,0,4,4,3,1,1,4,3,2,1,2,4,1,2,3,1,4,1,1,1,2,1
+1,When my mother told me my stepmother had cheated on me,EP,E-t5-base,disgust,0,0,0,0,0,0,0,4,4,4,3,1,5,5,4,3,2,1,1,3,1,1,5,1,1,1,5,1
+2,When my mother told me my stepmother had cheated on me,EP,E-t5-base,disgust,0,0,0,0,0,0,0,3,3,2,3,1,3,2,3,3,4,3,1,3,3,2,3,2,2,3,3,2
+0,"When my partner was drinking alcohol and he was rude to me for no reason, even though I was",EP,EA-t5-base,disgust,0,0,0,0,0,0,0,1,1,1,1,1,4,1,5,1,1,1,1,5,1,2,4,1,1,2,2,2
+1,"When my partner was drinking alcohol and he was rude to me for no reason, even though I was",EP,EA-t5-base,disgust,0,0,0,0,0,0,0,3,3,1,2,1,4,3,4,1,3,3,1,1,3,1,4,3,3,2,4,1
+2,"When my partner was drinking alcohol and he was rude to me for no reason, even though I was",EP,EA-t5-base,disgust,0,0,0,0,0,0,0,4,2,4,1,1,4,1,3,1,1,2,1,3,2,1,5,1,2,3,4,1
+0,When my mother told me she hated me,EP,E-t5-base,anger,0,0,0,0,0,0,0,4,3,3,3,1,5,3,3,3,2,1,1,1,1,1,5,1,1,4,2,2
+1,When my mother told me she hated me,EP,E-t5-base,anger,0,0,0,0,0,0,0,4,3,4,3,1,4,4,4,3,3,3,1,2,3,3,4,2,3,4,3,3
+2,When my mother told me she hated me,EP,E-t5-base,anger,0,0,0,0,0,0,0,3,3,3,3,1,4,4,3,5,3,3,1,2,5,3,5,2,1,5,3,3
+0,When my partner was rude to me for no reason last week.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,3,3,3,2,1,4,4,3,1,2,3,1,2,1,3,3,2,3,4,4,4
+1,When my partner was rude to me for no reason last week.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,5,5,3,1,1,5,1,3,1,1,1,1,1,1,4,2,3,3,5,3,3
+2,When my partner was rude to me for no reason last week.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,5,3,2,2,1,4,1,4,3,3,1,1,2,3,4,3,3,3,5,2,4
+0,when I read about the death of my best friend,EP,E-t5-base,sadness,0,0,0,0,0,0,0,1,1,3,2,1,5,3,4,1,1,4,1,5,1,3,3,5,4,4,2,4
+1,when I read about the death of my best friend,EP,E-t5-base,sadness,0,0,0,0,0,0,0,3,1,4,2,1,5,1,4,1,1,5,1,5,2,5,2,5,5,5,1,5
+2,when I read about the death of my best friend,EP,E-t5-base,sadness,0,0,0,0,0,0,0,1,1,1,1,1,5,1,1,1,1,5,1,4,1,5,1,5,5,5,1,5
+0,I felt a lot of  when I read about the death of my father,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,1,1,1,1,1,5,1,5,1,1,5,1,5,3,1,5,1,3,5,5,1
+1,I felt a lot of  when I read about the death of my father,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,1,1,1,4,1,5,2,3,1,1,4,1,4,3,2,4,2,3,5,4,2
+2,I felt a lot of  when I read about the death of my father,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,1,1,1,1,1,5,1,4,1,1,5,1,1,1,2,4,3,3,5,3,3
+0,When my dad passed away,EP,E-t5-base,sadness,0,0,0,0,0,0,0,3,2,3,2,1,5,1,2,1,1,5,1,3,4,4,1,4,5,5,3,3
+1,When my dad passed away,EP,E-t5-base,sadness,0,0,0,0,0,0,0,2,1,5,3,1,5,2,4,1,1,5,1,3,1,5,1,5,4,5,1,5
+2,When my dad passed away,EP,E-t5-base,sadness,0,0,0,0,0,0,0,4,4,5,3,3,4,1,5,1,1,5,1,1,3,5,1,5,3,5,1,5
+0,When my boyfriend left for college because I felt alone and like I didn't have the resources to do,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,4,2,5,3,1,5,1,3,1,3,3,1,2,4,2,5,1,2,3,4,2
+1,When my boyfriend left for college because I felt alone and like I didn't have the resources to do,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,2,1,5,1,1,5,2,3,2,2,1,1,4,2,1,5,1,1,2,4,2
+2,When my boyfriend left for college because I felt alone and like I didn't have the resources to do,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,1,1,1,1,1,3,1,5,3,1,2,3,1,4,1,5,1,1,2,5,1
+0,When my parents were unable to come,EP,E-t5-base,sadness,0,0,0,0,0,0,0,2,1,2,1,1,4,2,2,1,1,5,1,1,4,1,5,2,1,3,2,2
+1,When my parents were unable to come,EP,E-t5-base,sadness,0,0,0,0,0,0,0,5,2,3,2,1,4,1,4,2,2,3,1,2,3,3,3,3,3,4,3,3
+2,When my parents were unable to come,EP,E-t5-base,sadness,0,0,0,0,0,0,0,5,1,3,1,1,5,1,1,1,1,5,1,1,3,3,5,1,3,2,3,3
+0,When my dog died because I was too busy to spend an hour with him last week.,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,1,1,1,4,1,4,1,1,1,1,5,1,1,1,1,5,1,1,1,5,1
+1,When my dog died because I was too busy to spend an hour with him last week.,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,2,2,1,5,1,4,3,4,2,4,3,1,1,1,1,5,5,3,1,5,1
+2,When my dog died because I was too busy to spend an hour with him last week.,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,3,3,1,5,1,5,4,5,4,3,3,1,3,1,2,5,1,2,4,4,2
+0,When my partner told me he was too late,EP,E-t5-base,guilt,0,0,0,0,0,0,0,3,2,2,1,1,4,2,3,2,2,2,1,2,1,1,4,1,1,2,2,1
+1,When my partner told me he was too late,EP,E-t5-base,guilt,0,0,0,0,0,0,0,2,1,3,1,1,4,1,2,1,1,1,1,1,2,2,2,2,2,3,2,2
+2,When my partner told me he was too late,EP,E-t5-base,guilt,0,0,0,0,0,0,0,2,1,3,4,1,3,3,3,3,2,2,2,3,2,3,4,2,2,2,4,2
+0,When my partner cheated on me for something I did,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,1,1,1,1,1,1,1,2,2,2,2,1,1,1,2,2,2,2,4,2,2
+1,When my partner cheated on me for something I did,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,4,4,1,3,1,2,4,3,2,1,5,1,2,3,3,4,4,3,2,4,3
+2,When my partner cheated on me for something I did,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,3,2,2,5,1,4,5,5,5,2,1,1,4,2,5,1,4,4,4,1,5
+0,when i lied to my friend,EP,E-t5-base,guilt,0,0,0,0,0,0,0,1,1,1,4,1,1,4,5,5,5,1,3,4,5,3,5,3,4,5,1,5
+1,when i lied to my friend,EP,E-t5-base,guilt,0,0,0,0,0,0,0,1,2,1,2,1,2,2,4,5,5,1,1,2,2,5,2,5,5,5,1,5
+2,when i lied to my friend,EP,E-t5-base,guilt,0,0,0,0,0,0,0,1,1,4,4,1,1,4,5,5,5,1,1,3,1,3,2,5,4,4,1,5
+0,when I walked out of a party with my friends,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,3,1,3,1,3,5,1,5,5,5,3,3
+1,when I walked out of a party with my friends,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,1,1,1,2,1,2,1,4,2,3,2,3,2,3,3,1,5,3,4,1,4
+2,when I walked out of a party with my friends,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,1,1,1,1,4,1,1,3,3,4,1,4,2,2,5,1,5,3,4,3,3
+0,I found out I was a rapist,EP,E-t5-base,shame,0,0,0,0,0,0,0,2,4,3,4,1,2,4,5,5,5,1,3,3,3,4,1,5,5,5,1,5
+1,I found out I was a rapist,EP,E-t5-base,shame,0,0,0,0,0,0,0,1,4,4,4,1,4,4,5,5,3,1,1,4,4,4,1,3,4,5,4,2
+2,I found out I was a rapist,EP,E-t5-base,shame,0,0,0,0,0,0,0,3,5,5,5,1,5,5,4,1,1,1,1,1,1,5,1,5,5,3,3,3
+0,I found out that my partner was cheating on me.,EP,EA-t5-base,shame,0,0,0,0,0,0,0,5,5,5,1,1,5,1,4,1,1,1,1,4,4,4,1,5,5,5,1,5
+1,I found out that my partner was cheating on me.,EP,EA-t5-base,shame,0,0,0,0,0,0,0,5,5,2,1,1,5,2,5,1,1,1,1,5,1,5,1,5,5,5,4,4
+2,I found out that my partner was cheating on me.,EP,EA-t5-base,shame,0,0,0,0,0,0,0,5,5,2,2,1,5,3,5,1,1,1,1,2,1,5,1,5,5,5,2,4
+0,I found out my partner had been cheating on me and I felt  when I found out.,EP,E-t5-base,shame,0,0,0,0,0,0,0,5,5,2,1,1,5,1,5,1,1,4,1,4,1,1,4,1,1,3,2,1
+1,I found out my partner had been cheating on me and I felt  when I found out.,EP,E-t5-base,shame,0,0,0,0,0,0,0,3,3,1,4,1,4,2,5,1,1,5,1,1,1,2,4,2,2,4,2,2
+2,I found out my partner had been cheating on me and I felt  when I found out.,EP,E-t5-base,shame,0,0,0,0,0,0,0,5,5,3,1,1,4,1,4,1,1,2,1,3,1,3,5,2,2,4,4,2
+0,I found out I was cheating on my sister,EP,EA-t5-base,shame,0,0,0,0,0,0,0,1,2,1,2,1,3,3,5,1,1,1,1,1,2,2,1,1,1,1,2,3
+1,I found out I was cheating on my sister,EP,EA-t5-base,shame,0,0,0,0,0,0,0,4,5,3,5,1,4,5,5,5,5,1,1,5,5,2,5,1,1,1,5,1
+2,I found out I was cheating on my sister,EP,EA-t5-base,shame,0,0,0,0,0,0,0,1,5,5,5,1,3,5,5,5,5,1,3,4,3,4,1,5,5,3,4,4
+0,I found out that my mum had snuck out,EP,E-t5-base,disgust,0,0,0,0,0,0,0,4,4,4,1,1,1,2,3,1,1,1,1,3,1,2,4,2,2,2,3,3
+1,I found out that my mum had snuck out,EP,E-t5-base,disgust,0,0,0,0,0,0,0,4,5,3,2,1,3,3,4,3,1,4,1,3,2,1,4,4,3,4,3,4
+2,I found out that my mum had snuck out,EP,E-t5-base,disgust,0,0,0,0,0,0,0,2,2,4,1,1,2,1,4,1,1,2,1,3,1,2,5,2,2,3,5,2
+0,I found out my partner was having an affair.,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,5,5,1,2,1,5,2,5,1,1,3,1,5,1,5,1,5,5,5,1,5
+1,I found out my partner was having an affair.,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,5,3,1,1,1,5,1,4,1,1,1,1,3,4,5,1,5,5,5,1,5
+2,I found out my partner was having an affair.,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,5,5,5,1,1,5,2,4,3,1,4,1,3,2,5,1,5,5,5,3,5
+0,I found out my partner was being racist.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,5,5,1,2,1,1,2,5,1,4,4,1,5,2,5,1,5,5,5,3,3
+1,I found out my partner was being racist.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,4,4,1,1,1,3,2,3,1,1,1,1,2,3,5,1,5,5,5,1,5
+2,I found out my partner was being racist.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,4,4,2,2,1,4,4,4,1,1,3,1,3,4,4,1,3,3,4,3,4
+0,I found out I was pregnant,EP,E-t5-base,sadness,0,0,0,0,0,0,0,1,1,2,1,4,1,1,5,4,4,1,4,4,4,5,1,1,1,4,2,5
+1,I found out I was pregnant,EP,E-t5-base,sadness,0,0,0,0,0,0,0,1,1,3,1,5,1,1,5,5,1,1,3,3,3,5,1,5,5,5,1,5
+2,I found out I was pregnant,EP,E-t5-base,sadness,0,0,0,0,0,0,0,1,1,3,1,3,1,2,4,4,3,2,3,4,3,3,2,3,3,3,2,4
+0,I found out my partner was leaving for college because I knew it would be a long time coming.,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,1,1,1,1,1,3,1,4,2,3,1,1,4,5,1,5,1,1,5,5,1
+1,I found out my partner was leaving for college because I knew it would be a long time coming.,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,1,1,1,1,2,4,1,4,1,1,1,1,3,5,4,2,2,3,4,5,1
+2,I found out my partner was leaving for college because I knew it would be a long time coming.,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,2,1,3,1,1,5,1,4,1,1,3,1,2,5,3,5,2,2,4,3,3
+0,I found out my partner had been cheating on me and I felt  when I found out.,EP,E-t5-base,guilt,0,0,0,0,0,0,0,5,5,5,3,1,5,2,4,1,1,5,1,2,3,4,2,4,4,5,1,4
+1,I found out my partner had been cheating on me and I felt  when I found out.,EP,E-t5-base,guilt,0,0,0,0,0,0,0,4,4,4,1,1,4,4,3,1,1,1,1,3,1,2,5,3,1,3,4,2
+2,I found out my partner had been cheating on me and I felt  when I found out.,EP,E-t5-base,guilt,0,0,0,0,0,0,0,4,4,1,1,1,4,2,3,2,2,2,1,2,2,3,2,3,3,3,2,3
+0,I found out my partner had been cheating on me.,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,4,4,1,2,1,3,2,4,1,2,1,1,4,1,5,1,4,4,4,2,3
+1,I found out my partner had been cheating on me.,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,5,5,5,2,1,5,5,4,1,1,1,1,4,1,5,1,5,5,5,1,5
+2,I found out my partner had been cheating on me.,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,5,5,5,5,2,5,5,5,4,4,3,1,4,4,4,2,4,4,4,2,4
+0,I went to the movies,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,3,5,5,1,5,3,5,4,1,4,5,5,1,5
+1,I went to the movies,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,4,5,4,4,4,4,4,5,1,5,5,5,1,5
+2,I went to the movies,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,3,1,1,5,5,2,1,5,5,5,5,5,1,5
+0,I went to the beach with my family and we had a swim. It was so relaxing and relaxing,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,2,3,3,1,5,3,2,2,3,3,1,5,5,3
+1,I went to the beach with my family and we had a swim. It was so relaxing and relaxing,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,4,1,1,4,4,3,1,5,3,2,3,4,3,3,4,2,3
+2,I went to the beach with my family and we had a swim. It was so relaxing and relaxing,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,4,1,1,3,3,3,2,4,3,3,3,4,2,3,3,4,2
+0,I went to the cinema,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,3,1,1,3,3,3,1,4,2,2,2,2,2,1,4,5,2
+1,I went to the cinema,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,2,1,5,1,1,5,5,4,2,5,2,3,5,1,5,5,5,3,3
+2,I went to the cinema,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,5,5,2,3,5,2,1,5,1,5,5,5,3,3
+0,I went to the beach with my family and we had a swim. It was so relaxing and it,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,4,1,1,3,5,5,1,5,4,3,3,1,5,4,5,1,5
+1,I went to the beach with my family and we had a swim. It was so relaxing and it,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,5,5,5,5,5,5,5,4,2,5,5,5,2,4
+2,I went to the beach with my family and we had a swim. It was so relaxing and it,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,5,5,5,1,5,5,5,4,2,4,4,5,2,5
+0,I went to the hospital,EP,E-t5-base,fear,0,0,0,0,0,0,0,3,3,4,2,1,4,2,4,1,1,3,1,5,1,2,5,1,2,3,4,2
+1,I went to the hospital,EP,E-t5-base,fear,0,0,0,0,0,0,0,3,4,5,3,1,5,3,5,1,1,4,1,5,1,1,5,1,5,1,3,3
+2,I went to the hospital,EP,E-t5-base,fear,0,0,0,0,0,0,0,5,3,1,2,1,5,2,1,1,1,1,1,4,1,3,5,3,3,4,5,1
+0,I went to the emergency room and was  to get myself in the hospital.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,1,4,3,1,3,1,4,4,4,3,1,3,2,1,5,1,1,5,4,3
+1,I went to the emergency room and was  to get myself in the hospital.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,1,3,1,1,1,1,4,3,4,3,1,2,4,3,3,3,3,4,3,3
+2,I went to the emergency room and was  to get myself in the hospital.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,2,1,4,2,1,2,3,5,3,3,4,2,4,3,3,3,2,3,4,1,4
+0,I went to the emergency room and was  of being bitten.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,1,2,1,1,2,2,4,2,3,3,1,3,3,3,4,3,4,4,4,2
+1,I went to the emergency room and was  of being bitten.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,1,3,1,1,1,1,5,2,2,4,1,5,2,2,4,1,3,2,4,1
+2,I went to the emergency room and was  of being bitten.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,2,3,5,1,1,4,2,5,1,2,5,1,5,3,2,5,1,2,4,5,2
+0,I went to the hospital and was  of being rushed,EP,E-t5-base,fear,0,0,0,0,0,0,0,3,1,3,1,1,1,1,4,2,2,3,1,3,3,1,5,1,1,2,5,1
+1,I went to the hospital and was  of being rushed,EP,E-t5-base,fear,0,0,0,0,0,0,0,1,1,4,1,1,3,1,4,4,2,3,1,3,2,3,5,4,3,3,4,2
+2,I went to the hospital and was  of being rushed,EP,E-t5-base,fear,0,0,0,0,0,0,0,4,3,5,1,1,5,4,5,4,2,2,1,1,1,1,1,1,1,5,5,1
+0,I went to the gym and was  of being hit by a car.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,3,3,1,3,1,3,3,5,3,3,3,1,5,3,1,5,1,3,5,5,1
+1,I went to the gym and was  of being hit by a car.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,1,5,1,1,5,1,3,1,1,1,1,3,2,2,5,1,2,4,5,1
+2,I went to the gym and was  of being hit by a car.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,4,4,5,2,1,4,3,2,2,2,3,1,1,2,1,5,1,2,4,4,4
+0,When I got to say goodbye to my best friend,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,4,2,1,3,1,2,3,3,3,3,2,3,1,1,3,2,3
+1,When I got to say goodbye to my best friend,EP,E-t5-base,joy,0,0,0,0,0,0,0,2,1,2,2,2,4,1,5,4,4,4,2,3,4,4,4,3,3,5,3,2
+2,When I got to say goodbye to my best friend,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,4,1,1,4,5,4,4,2,1,3,1,5,1,2,5,5,1
+0,When I was able to complete a project at work in record time.,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,4,1,1,4,4,4,1,4,4,4,5,1,4,5,5,2,4
+1,When I was able to complete a project at work in record time.,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,2,1,4,1,1,5,5,5,1,4,5,5,5,2,5,5,5,2,4
+2,When I was able to complete a project at work in record time.,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,3,5,3,1,4,4,4,1,5,1,1,2,5,1
+0,I went to the gym,EP,E-t5-base,anger,0,0,0,0,0,0,0,4,5,4,1,1,4,1,5,1,1,4,1,3,1,5,1,5,5,2,5,1
+1,I went to the gym,EP,E-t5-base,anger,0,0,0,0,0,0,0,5,5,2,1,1,1,1,3,2,1,1,1,3,1,5,1,2,5,1,4,2
+2,I went to the gym,EP,E-t5-base,anger,0,0,0,0,0,0,0,5,5,5,5,1,5,5,3,1,1,5,1,1,1,2,1,1,2,2,5,1
+0,I went to the grocery store and got a lot of mail from people who didn't pay me,EP,EA-t5-base,anger,0,0,0,0,0,0,0,1,1,1,1,1,1,1,2,1,2,2,2,2,1,2,2,3,2,3,2,2
+1,I went to the grocery store and got a lot of mail from people who didn't pay me,EP,EA-t5-base,anger,0,0,0,0,0,0,0,3,2,1,2,1,3,3,2,1,1,2,1,2,1,1,5,1,1,2,5,1
+2,I went to the grocery store and got a lot of mail from people who didn't pay me,EP,EA-t5-base,anger,0,0,0,0,0,0,0,3,2,1,1,1,3,1,3,1,1,1,1,2,1,1,5,1,1,1,5,1
+0,I went to the gym and got a bad mark on my forehead.,EP,E-t5-base,anger,0,0,0,0,0,0,0,4,1,3,1,1,5,2,5,5,5,2,1,5,1,5,1,5,5,5,1,5
+1,I went to the gym and got a bad mark on my forehead.,EP,E-t5-base,anger,0,0,0,0,0,0,0,1,1,1,1,1,1,2,4,5,4,1,1,1,1,4,1,4,4,4,2,4
+2,I went to the gym and got a bad mark on my forehead.,EP,E-t5-base,anger,0,0,0,0,0,0,0,2,1,1,1,1,3,1,4,5,3,3,1,3,1,4,4,4,4,4,4,2
+0,I went to the hospital with my mum after a long time apart due to covid,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,1,1,1,1,2,1,1,4,1,1,5,3,2,3,5,1,5,5,5,1,5
+1,I went to the hospital with my mum after a long time apart due to covid,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,2,1,5,2,1,5,2,5,1,1,5,1,5,1,4,1,4,4,4,2,4
+2,I went to the hospital with my mum after a long time apart due to covid,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,1,2,4,1,1,2,1,4,1,2,5,2,4,3,5,1,4,4,4,2,4
+0,I went to the gym and ate a lot of food.,EP,E-t5-base,guilt,0,0,0,0,0,0,0,1,2,1,3,2,1,3,4,5,5,2,4,4,4,4,1,5,5,4,3,3
+1,I went to the gym and ate a lot of food.,EP,E-t5-base,guilt,0,0,0,0,0,0,0,1,2,1,1,3,2,1,2,5,5,2,3,2,2,3,1,2,2,1,4,1
+2,I went to the gym and ate a lot of food.,EP,E-t5-base,guilt,0,0,0,0,0,0,0,1,1,1,3,4,1,2,1,4,4,1,4,3,1,4,1,4,4,4,3,3
+0,"I went to the gym and ate a lot of food, and then realised later that day",EP,EA-t5-base,guilt,0,0,0,0,0,0,0,1,1,1,2,1,1,1,1,5,5,1,1,1,1,5,1,5,2,5,3,3
+1,"I went to the gym and ate a lot of food, and then realised later that day",EP,EA-t5-base,guilt,0,0,0,0,0,0,0,1,1,1,4,1,2,3,4,5,5,1,2,1,2,3,4,3,3,3,2,4
+2,"I went to the gym and ate a lot of food, and then realised later that day",EP,EA-t5-base,guilt,0,0,0,0,0,0,0,1,1,1,1,3,1,1,3,4,4,3,3,3,3,3,2,4,3,4,3,4
+0,I went to a party  and I felt the party.,EP,E-t5-base,guilt,0,0,0,0,0,0,0,1,1,1,1,1,1,1,2,3,4,1,3,3,3,2,4,1,1,1,2,1
+1,I went to a party  and I felt the party.,EP,E-t5-base,guilt,0,0,0,0,0,0,0,1,1,1,1,2,2,1,4,4,4,3,3,2,2,2,5,2,1,2,4,2
+2,I went to a party  and I felt the party.,EP,E-t5-base,guilt,0,0,0,0,0,0,0,1,1,1,1,1,1,1,4,3,3,3,2,3,2,2,4,3,3,2,2,2
+0,I went to the gym and found out my partner was cheating on me.,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,4,4,1,2,1,5,2,5,1,1,3,1,5,1,3,2,4,3,5,1,5
+1,I went to the gym and found out my partner was cheating on me.,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,5,4,1,1,1,5,1,4,2,2,1,1,4,4,5,1,5,5,5,1,5
+2,I went to the gym and found out my partner was cheating on me.,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,5,5,4,1,1,5,2,4,4,1,4,1,3,2,5,1,4,4,4,2,4
+0,When I was able to get my first job and start a new life.,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,2,1,4,2,1,2,5,4,1,5,4,3,4,1,4,4,4,3,3
+1,When I was able to get my first job and start a new life.,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,2,1,5,1,1,5,5,4,2,5,5,4,5,1,5,5,5,1,5
+2,When I was able to get my first job and start a new life.,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,2,1,5,1,2,3,1,5,2,5,5,4,1,5,1,1,2,5,1
+0,When I walked my dog for the first time in over a year because I felt safe and secure,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,4,1,1,4,1,1,1,5,4,3,2,5,3,1,5,1,4
+1,When I walked my dog for the first time in over a year because I felt safe and secure,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,2,1,5,1,1,5,4,4,1,5,5,5,3,4,2,3,4,4,4
+2,When I walked my dog for the first time in over a year because I felt safe and secure,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,2,1,1,3,5,5,1,3,3,1,3,2,2,3,3,3,3
+0,I saw my friend's dog come home after a long time apart due to COVID-19,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,3,1,3,1,1,2,3,1,1,3,4,1,1,4,3,3
+1,I saw my friend's dog come home after a long time apart due to COVID-19,EP,E-t5-base,joy,0,0,0,0,0,0,0,2,1,2,2,1,5,1,3,1,1,4,1,2,2,5,1,5,5,4,3,3
+2,I saw my friend's dog come home after a long time apart due to COVID-19,EP,E-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,3,1,3,1,3,5,5,3,2,5,1,5,5,2,3,3
+0,I saw my son perform in a play.,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,4,1,1,4,2,1,1,4,2,2,5,1,4,5,5,1,5
+1,I saw my son perform in a play.,EP,EA-t5-base,joy,0,0,0,0,0,0,0,4,2,4,3,2,2,4,4,3,4,4,5,4,3,4,3,4,3,4,2,3
+2,I saw my son perform in a play.,EP,EA-t5-base,joy,0,0,0,0,0,0,0,1,1,1,1,5,1,1,5,5,1,3,5,3,3,5,1,4,5,5,4,4
+0,I saw a homeless person abuse their dog,EP,EA-t5-base,shame,0,0,0,0,0,0,0,5,5,2,3,1,3,3,3,1,3,3,1,2,1,5,1,4,5,5,4,4
+1,I saw a homeless person abuse their dog,EP,EA-t5-base,shame,0,0,0,0,0,0,0,5,5,4,4,1,5,4,3,1,1,1,1,1,1,5,1,5,5,5,3,3
+2,I saw a homeless person abuse their dog,EP,EA-t5-base,shame,0,0,0,0,0,0,0,3,4,2,4,1,4,1,3,1,3,4,1,2,3,4,2,5,3,5,4,4
+0,I saw a homeless person being cheated on,EP,EA-t5-base,shame,0,0,0,0,0,0,0,2,2,1,1,1,2,1,3,1,1,3,1,2,3,5,1,5,5,5,2,4
+1,I saw a homeless person being cheated on,EP,EA-t5-base,shame,0,0,0,0,0,0,0,1,2,1,1,1,1,1,3,1,1,3,1,1,1,4,2,2,3,3,4,2
+2,I saw a homeless person being cheated on,EP,EA-t5-base,shame,0,0,0,0,0,0,0,3,2,1,2,1,4,3,4,1,1,4,1,3,3,4,1,2,3,2,4,2
+0,I saw a video in which someone smashed their window and then flipped it over and over,EP,E-t5-base,disgust,0,0,0,0,0,0,0,1,2,1,1,2,1,1,3,1,1,5,2,2,2,4,2,3,2,2,4,2
+1,I saw a video in which someone smashed their window and then flipped it over and over,EP,E-t5-base,disgust,0,0,0,0,0,0,0,1,1,1,1,1,1,1,2,1,1,2,1,1,1,1,4,3,1,1,5,1
+2,I saw a video in which someone smashed their window and then flipped it over and over,EP,E-t5-base,disgust,0,0,0,0,0,0,0,1,2,1,2,2,2,2,5,5,5,5,1,5,5,5,5,5,5,5,5,5
+0,I saw a homeless person being racially abusive to another person.,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,3,5,3,1,1,3,1,5,1,1,1,1,1,3,5,1,5,5,5,1,5
+1,I saw a homeless person being racially abusive to another person.,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,5,5,5,2,1,5,5,4,1,1,4,1,3,3,5,1,5,5,5,2,4
+2,I saw a homeless person being racially abusive to another person.,EP,EA-t5-base,disgust,0,0,0,0,0,0,0,5,5,5,5,1,5,2,3,1,1,5,1,5,3,5,1,4,5,5,3,4
+0,I saw a friend being cheated on,EP,E-t5-base,anger,0,0,0,0,0,0,0,4,4,4,1,1,4,2,5,1,1,1,1,5,1,5,2,5,4,4,1,5
+1,I saw a friend being cheated on,EP,E-t5-base,anger,0,0,0,0,0,0,0,3,4,1,4,1,4,5,4,2,1,5,1,3,4,5,3,4,4,5,2,5
+2,I saw a friend being cheated on,EP,E-t5-base,anger,0,0,0,0,0,0,0,4,5,2,2,1,5,2,5,1,1,1,1,3,1,4,1,4,4,5,2,4
+0,I saw a homeless person being racially harassed by their family members.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,2,2,1,1,1,2,1,3,1,1,5,1,1,1,5,1,4,3,2,5,2
+1,I saw a homeless person being racially harassed by their family members.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,4,4,2,2,1,4,2,5,1,1,4,1,1,1,5,1,5,4,5,1,5
+2,I saw a homeless person being racially harassed by their family members.,EP,EA-t5-base,anger,0,0,0,0,0,0,0,4,4,2,2,2,3,2,3,2,2,2,2,2,2,4,2,4,3,4,3,4
+0,I saw a video on social media of people yelping at one another,EP,E-t5-base,anger,0,0,0,0,0,0,0,2,1,3,2,1,1,2,3,1,1,2,1,2,1,4,4,4,2,3,5,2
+1,I saw a video on social media of people yelping at one another,EP,E-t5-base,anger,0,0,0,0,0,0,0,1,1,1,1,3,1,1,4,1,2,2,2,1,2,3,3,2,3,5,3,3
+2,I saw a video on social media of people yelping at one another,EP,E-t5-base,anger,0,0,0,0,0,0,0,2,1,1,1,1,2,1,2,1,1,5,1,1,5,4,1,4,4,5,3,4
+0,I saw a homeless person being racially harassed by their employer for no reason at,EP,EA-t5-base,anger,0,0,0,0,0,0,0,5,5,1,4,1,4,1,5,1,1,1,1,3,1,5,2,5,3,3,1,5
+1,I saw a homeless person being racially harassed by their employer for no reason at,EP,EA-t5-base,anger,0,0,0,0,0,0,0,5,5,3,3,1,4,3,5,1,2,5,1,4,4,4,2,4,4,5,2,4
+2,I saw a homeless person being racially harassed by their employer for no reason at,EP,EA-t5-base,anger,0,0,0,0,0,0,0,5,5,5,5,1,5,2,5,1,3,1,1,5,1,5,3,3,3,5,3,4
+0,I saw my girlfriend go to the bathroom with her boyfriend and she starts yelping and crying,EP,E-t5-base,sadness,0,0,0,0,0,0,0,3,3,3,3,3,3,3,3,3,3,3,1,2,1,2,2,2,2,3,5,1
+1,I saw my girlfriend go to the bathroom with her boyfriend and she starts yelping and crying,EP,E-t5-base,sadness,0,0,0,0,0,0,0,2,1,4,1,1,2,1,5,1,1,1,1,3,1,4,1,4,3,5,1,5
+2,I saw my girlfriend go to the bathroom with her boyfriend and she starts yelping and crying,EP,E-t5-base,sadness,0,0,0,0,0,0,0,4,5,4,2,1,3,1,5,4,5,1,1,4,2,1,5,2,3,1,4,2
+0,I saw a homeless person who had been in an abusive relationship for months leading up to the death of,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,1,1,2,2,1,3,1,3,1,2,4,1,2,2,4,4,3,3,5,4,2
+1,I saw a homeless person who had been in an abusive relationship for months leading up to the death of,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,5,5,5,2,1,5,2,5,2,1,1,1,5,2,3,4,2,2,2,2,2
+2,I saw a homeless person who had been in an abusive relationship for months leading up to the death of,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,1,3,2,4,1,5,3,4,1,2,4,1,5,2,2,4,2,2,4,4,2
+0,When I was caught cheating on a test,EP,E-t5-base,shame,0,0,0,0,0,0,0,2,2,4,4,1,2,3,4,5,4,1,1,4,1,4,2,4,4,5,2,4
+1,When I was caught cheating on a test,EP,E-t5-base,shame,0,0,0,0,0,0,0,5,4,3,5,1,5,5,5,5,5,1,1,4,5,5,5,2,4,5,1,5
+2,When I was caught cheating on a test,EP,E-t5-base,shame,0,0,0,0,0,0,0,1,1,2,5,1,1,4,4,5,5,1,1,3,5,5,1,5,5,5,1,5
+0,When I lied to my friends about where I was going in my relationship.,EP,EA-t5-base,shame,0,0,0,0,0,0,0,1,1,1,3,1,2,2,1,5,5,1,1,2,3,4,2,4,4,4,3,3
+1,When I lied to my friends about where I was going in my relationship.,EP,EA-t5-base,shame,0,0,0,0,0,0,0,2,1,1,4,1,2,3,2,4,3,2,3,2,3,1,4,3,3,3,4,2
+2,When I lied to my friends about where I was going in my relationship.,EP,EA-t5-base,shame,0,0,0,0,0,0,0,2,1,2,3,2,2,2,3,4,3,2,3,3,3,4,2,4,3,4,3,4
+0,When I lied to my sister about having been late to school due to a health condition,EP,E-t5-base,shame,0,0,0,0,0,0,0,2,2,3,3,1,3,3,5,5,5,3,1,4,4,3,3,2,2,1,4,4
+1,When I lied to my sister about having been late to school due to a health condition,EP,E-t5-base,shame,0,0,0,0,0,0,0,1,1,4,3,1,1,2,5,5,5,2,1,3,4,5,1,5,5,5,2,4
+2,When I lied to my sister about having been late to school due to a health condition,EP,E-t5-base,shame,0,0,0,0,0,0,0,2,2,2,3,1,1,4,4,3,4,1,1,1,4,1,1,2,4,5,5,1
+0,When I ate a lot of food because I didn't like the way the food was presented,EP,EA-t5-base,shame,0,0,0,0,0,0,0,3,3,1,2,1,1,2,3,3,3,3,1,3,3,1,5,1,1,1,5,1
+1,When I ate a lot of food because I didn't like the way the food was presented,EP,EA-t5-base,shame,0,0,0,0,0,0,0,1,3,1,1,1,1,1,2,1,2,1,2,3,3,2,5,1,2,3,4,1
+2,When I ate a lot of food because I didn't like the way the food was presented,EP,EA-t5-base,shame,0,0,0,0,0,0,0,4,4,2,1,1,4,1,3,3,3,3,3,3,3,1,5,1,1,3,3,3
+0,When I was robbed at gunpoint by a man who was not my husband.,EP,E-t5-base,fear,0,0,0,0,0,0,0,4,4,5,3,1,5,3,4,4,1,1,1,5,1,2,4,1,2,4,4,3
+1,When I was robbed at gunpoint by a man who was not my husband.,EP,E-t5-base,fear,0,0,0,0,0,0,0,3,3,5,1,1,2,3,5,1,1,5,1,2,1,5,1,4,4,4,1,4
+2,When I was robbed at gunpoint by a man who was not my husband.,EP,E-t5-base,fear,0,0,0,0,0,0,0,5,1,5,1,1,1,1,4,1,1,5,1,1,1,1,3,1,3,5,5,1
+0,When I was alone in front of a large group of large groups of people.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,1,1,1,1,1,1,2,1,1,1,1,1,1,2,3,2,2,2,2,1
+1,When I was alone in front of a large group of large groups of people.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,3,2,4,2,1,3,1,1,2,2,3,1,1,1,1,5,2,2,1,5,1
+2,When I was alone in front of a large group of large groups of people.,EP,EA-t5-base,fear,0,0,0,0,0,0,0,1,1,4,1,1,1,1,4,1,2,4,1,2,2,2,5,1,2,3,4,1
+0,When I was told my girlfriend was cheating,EP,E-t5-base,anger,0,0,0,0,0,0,0,5,5,5,5,1,5,3,3,1,1,5,1,4,3,1,5,1,2,3,5,1
+1,When I was told my girlfriend was cheating,EP,E-t5-base,anger,0,0,0,0,0,0,0,4,3,2,2,1,5,3,4,1,1,2,1,1,1,3,4,2,3,5,4,2
+2,When I was told my girlfriend was cheating,EP,E-t5-base,anger,0,0,0,0,0,0,0,5,2,1,2,1,5,2,3,4,4,4,1,1,2,1,5,1,2,5,5,1
+0,When I was being racist at work because I didn't understand why someone would behave the way I did,EP,EA-t5-base,anger,0,0,0,0,0,0,0,4,3,1,2,1,1,2,2,4,4,1,1,3,1,2,5,1,2,2,4,2
+1,When I was being racist at work because I didn't understand why someone would behave the way I did,EP,EA-t5-base,anger,0,0,0,0,0,0,0,2,2,2,3,1,2,2,5,5,5,1,1,2,1,4,2,2,3,3,4,2
+2,When I was being racist at work because I didn't understand why someone would behave the way I did,EP,EA-t5-base,anger,0,0,0,0,0,0,0,4,4,4,4,1,5,5,4,4,4,1,1,3,2,1,1,1,1,3,5,1
+0,When I was robbed at gunpoint by a man who was not my husband.,EP,E-t5-base,anger,0,0,0,0,0,0,0,1,3,4,3,1,3,3,5,4,4,2,1,4,4,4,2,4,4,4,4,4
+1,When I was robbed at gunpoint by a man who was not my husband.,EP,E-t5-base,anger,0,0,0,0,0,0,0,5,5,5,1,1,5,3,5,1,1,5,1,5,1,5,1,5,5,5,1,4
+2,When I was robbed at gunpoint by a man who was not my husband.,EP,E-t5-base,anger,0,0,0,0,0,0,0,5,4,5,1,1,4,1,4,1,1,4,1,2,1,4,1,4,4,2,3,2
+0,When I was being racist at work because I am not a good listener and my colleagues are not,EP,EA-t5-base,anger,0,0,0,0,0,0,0,4,4,2,2,1,2,2,3,4,4,1,1,4,1,1,5,1,1,1,3,1
+1,When I was being racist at work because I am not a good listener and my colleagues are not,EP,EA-t5-base,anger,0,0,0,0,0,0,0,2,2,2,2,1,2,2,5,5,5,1,1,2,2,4,2,2,3,4,4,2
+2,When I was being racist at work because I am not a good listener and my colleagues are not,EP,EA-t5-base,anger,0,0,0,0,0,0,0,4,4,4,4,2,4,4,2,4,3,1,1,3,3,2,3,3,3,3,3,3
+0,When I was left out of a football team to,EP,E-t5-base,sadness,0,0,0,0,0,0,0,5,4,3,3,1,4,3,4,1,1,4,1,4,3,5,4,4,5,5,2,2
+1,When I was left out of a football team to,EP,E-t5-base,sadness,0,0,0,0,0,0,0,3,3,2,2,1,3,4,4,2,1,2,1,3,1,4,5,3,3,5,4,2
+2,When I was left out of a football team to,EP,E-t5-base,sadness,0,0,0,0,0,0,0,5,1,1,2,1,5,1,3,4,1,2,1,1,1,1,2,1,2,4,5,1
+0,When I lost my job because I felt I had let my career down.,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,5,1,1,1,1,4,2,5,3,3,3,2,4,3,3,4,2,2,3,5,2
+1,When I lost my job because I felt I had let my career down.,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,2,1,4,5,1,4,5,4,5,4,2,1,4,4,2,5,2,2,4,4,2
+2,When I lost my job because I felt I had let my career down.,EP,EA-t5-base,sadness,0,0,0,0,0,0,0,1,1,1,3,1,5,5,3,1,3,2,1,2,4,3,2,2,1,3,4,3
+0,When I was late to pick my child and she was the only child left,EP,E-t5-base,guilt,0,0,0,0,0,0,0,1,1,3,4,1,2,4,4,4,3,3,1,3,4,1,4,4,2,4,3,1
+1,When I was late to pick my child and she was the only child left,EP,E-t5-base,guilt,0,0,0,0,0,0,0,1,1,1,5,1,4,3,5,5,5,2,2,3,2,2,3,2,2,5,3,2
+2,When I was late to pick my child and she was the only child left,EP,E-t5-base,guilt,0,0,0,0,0,0,0,2,2,3,2,1,4,3,5,1,1,4,2,3,1,3,2,3,3,3,3,3
+0,When I did something wrong in my job and my boss told me to take responsibility for my actions and I,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,4,2,4,2,1,4,2,4,3,3,2,1,3,2,2,3,3,3,3,4,2
+1,When I did something wrong in my job and my boss told me to take responsibility for my actions and I,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,2,1,5,4,1,3,4,4,5,4,2,1,4,4,3,3,2,2,4,4,2
+2,When I did something wrong in my job and my boss told me to take responsibility for my actions and I,EP,EA-t5-base,guilt,0,0,0,0,0,0,0,2,2,1,4,1,4,5,3,5,4,1,1,2,4,4,4,3,2,4,3,4
+0,When I was caught cheating on a test,EP,E-t5-base,guilt,0,0,0,0,0,0,0,5,2,5,5,1,5,5,5,5,5,1,3,4,5,5,1,5,5,5,1,5
+1,When I was caught cheating on a test,EP,E-t5-base,guilt,0,0,0,0,0,0,0,1,2,3,4,1,1,5,3,5,5,1,1,3,2,4,1,4,2,5,1,5
+2,When I was caught cheating on a test,EP,E-t5-base,guilt,0,0,0,0,0,0,0,3,1,5,5,1,3,5,5,5,5,1,1,4,5,5,4,4,4,5,4,3
+0,when I lied to my parents about my sexuality,EP,E-t5-base,shame,0,0,0,0,0,0,0,4,3,5,5,1,5,5,5,1,4,5,1,5,5,5,2,5,3,4,2,4
+1,when I lied to my parents about my sexuality,EP,E-t5-base,shame,0,0,0,0,0,0,0,2,2,3,4,1,4,4,5,3,5,3,1,5,4,4,1,3,3,4,4,2
+2,when I lied to my parents about my sexuality,EP,E-t5-base,shame,0,0,0,0,0,0,0,2,2,5,4,1,3,4,4,2,4,2,1,4,4,4,4,4,4,4,1,4
+0,when I was a teenager for something I did not do or how I should have,EP,EA-t5-base,shame,0,0,0,0,0,0,0,2,1,1,2,1,1,1,2,4,3,1,1,1,1,1,5,1,1,2,2,1
+1,when I was a teenager for something I did not do or how I should have,EP,EA-t5-base,shame,0,0,0,0,0,0,0,1,1,1,1,1,1,1,2,2,2,2,2,3,3,1,4,1,1,1,5,1
+2,when I was a teenager for something I did not do or how I should have,EP,EA-t5-base,shame,0,0,0,0,0,0,0,5,5,5,5,1,5,5,1,5,5,3,1,3,1,2,5,2,1,4,5,2
+0,I am a mother of two grown up boys.,EfA,EA-t5-base,joy,1,1,1,0,1,1,0,2,2,3,2,1,4,2,2,3,3,3,2,3,3,2,3,3,3,3,3,3
+1,I am a mother of two grown up boys.,EfA,EA-t5-base,joy,1,1,1,0,1,1,0,2,1,1,1,4,2,1,3,5,5,1,3,5,5,5,2,4,3,5,2,5
+2,I am a mother of two grown up boys.,EfA,EA-t5-base,joy,1,1,1,0,1,1,0,1,1,3,3,5,3,1,3,4,2,3,5,5,5,4,3,4,3,3,3,4
+0,I am able to complete a project at work in record time with no issues.,EfA,EA-t5-base,joy,1,1,0,0,1,0,0,1,1,1,1,3,1,1,3,4,4,2,3,3,3,4,2,5,5,5,2,4
+1,I am able to complete a project at work in record time with no issues.,EfA,EA-t5-base,joy,1,1,0,0,1,0,0,1,1,1,1,4,1,1,5,5,5,1,5,5,5,5,1,5,5,5,1,5
+2,I am able to complete a project at work in record time with no issues.,EfA,EA-t5-base,joy,1,1,0,0,1,0,0,1,1,1,1,5,1,1,1,5,4,1,4,2,3,5,1,5,5,5,3,5
+0,spiders when I was in bed.,EfA,EA-t5-base,fear,1,0,0,1,0,1,1,3,2,4,1,1,2,1,5,5,1,5,1,2,4,1,2,2,3,4,4,2
+1,spiders when I was in bed.,EfA,EA-t5-base,fear,1,0,0,1,0,1,1,1,4,5,1,1,2,1,5,1,1,4,1,3,3,3,3,2,2,3,5,2
+2,spiders when I was in bed.,EfA,EA-t5-base,fear,1,0,0,1,0,1,1,2,4,5,1,1,1,1,2,1,2,5,1,4,4,1,5,1,1,4,5,1
+0,I am going through a hard time and need to go through the same things that I did when I,EfA,EA-t5-base,sadness,0,0,0,1,0,0,0,2,3,5,2,1,4,2,5,5,4,4,1,3,5,1,3,2,2,4,2,2
+1,I am going through a hard time and need to go through the same things that I did when I,EfA,EA-t5-base,sadness,0,0,0,1,0,0,0,4,2,4,3,1,4,4,4,3,2,2,1,4,2,2,4,1,2,1,5,1
+2,I am going through a hard time and need to go through the same things that I did when I,EfA,EA-t5-base,sadness,0,0,0,1,0,0,0,3,1,4,1,1,1,3,2,3,1,5,1,4,1,4,3,4,3,4,3,3
+0,I am embarrassed for not being able to do normal things like everyone else.,EfA,EA-t5-base,shame,1,1,1,0,0,1,1,4,3,3,2,1,4,2,4,1,1,5,1,4,1,5,1,5,5,5,1,5
+1,I am embarrassed for not being able to do normal things like everyone else.,EfA,EA-t5-base,shame,1,1,1,0,0,1,1,3,5,2,4,1,5,5,5,4,4,2,1,4,4,5,1,4,1,5,3,4
+2,I am embarrassed for not being able to do normal things like everyone else.,EfA,EA-t5-base,shame,1,1,1,0,0,1,1,3,4,2,4,1,5,4,1,5,5,3,1,3,3,5,1,5,5,5,1,5
+0,When someone is being racist at work,EfA,EA-t5-base,anger,0,0,0,0,0,1,0,5,5,2,1,1,3,1,5,1,3,1,1,5,5,3,2,4,2,5,1,5
+1,When someone is being racist at work,EfA,EA-t5-base,anger,0,0,0,0,0,1,0,5,5,2,2,1,5,5,5,1,3,4,1,3,1,4,2,2,3,3,4,3
+2,When someone is being racist at work,EfA,EA-t5-base,anger,0,0,0,0,0,1,0,4,4,3,1,2,4,1,5,1,1,3,1,4,1,4,4,5,3,5,1,5
+0,When someone tries to take advantage of my situation,EfA,EA-t5-base,anger,1,0,1,0,0,1,0,4,4,4,2,1,4,4,3,3,4,3,1,4,4,2,4,1,1,3,4,2
+1,When someone tries to take advantage of my situation,EfA,EA-t5-base,anger,1,0,1,0,0,1,0,4,4,2,1,1,4,3,4,1,3,4,1,2,2,4,2,4,1,3,4,2
+2,When someone tries to take advantage of my situation,EfA,EA-t5-base,anger,1,0,1,0,0,1,0,4,4,3,1,1,5,2,4,2,2,4,1,3,2,3,1,4,4,5,3,3
+0,When someone spit on me,EfA,EA-t5-base,disgust,0,0,0,0,0,1,0,4,4,2,1,1,3,2,3,1,1,3,1,2,2,5,2,4,5,5,1,4
+1,When someone spit on me,EfA,EA-t5-base,disgust,0,0,0,0,0,1,0,5,5,4,1,1,5,5,5,1,1,5,1,5,2,2,4,2,1,4,5,1
+2,When someone spit on me,EfA,EA-t5-base,disgust,0,0,0,0,0,1,0,5,5,2,1,1,4,2,3,1,1,1,1,1,1,5,1,4,4,5,3,5
+0,When someone called me a liar and said he didn't like me,EfA,EA-t5-base,disgust,1,0,0,1,0,1,0,5,5,5,5,1,5,5,5,1,2,1,1,5,1,5,1,4,4,5,4,4
+1,When someone called me a liar and said he didn't like me,EfA,EA-t5-base,disgust,1,0,0,1,0,1,0,3,4,2,3,1,4,3,4,4,4,1,1,3,3,5,5,4,4,5,5,2
+2,When someone called me a liar and said he didn't like me,EfA,EA-t5-base,disgust,1,0,0,1,0,1,0,5,2,1,2,1,5,2,1,3,3,3,1,3,2,4,3,5,5,3,4,2
+0,When someone is trying to take advantage of my privacy.,EfA,EA-t5-base,fear,1,1,0,0,0,1,1,5,4,3,1,1,3,3,5,5,3,1,1,2,3,2,1,2,3,4,2,3
+1,When someone is trying to take advantage of my privacy.,EfA,EA-t5-base,fear,1,1,0,0,0,1,1,5,4,4,1,1,4,1,4,2,2,4,1,4,5,5,1,4,4,5,4,2
+2,When someone is trying to take advantage of my privacy.,EfA,EA-t5-base,fear,1,1,0,0,0,1,1,5,4,4,1,1,3,2,4,1,2,1,1,4,5,4,4,3,1,4,5,1
+0,When someone is trying to take advantage of my privacy.,EfA,EA-t5-base,fear,1,1,1,0,0,1,1,5,5,4,1,1,5,3,5,1,1,5,1,4,5,4,3,5,5,4,1,5
+1,When someone is trying to take advantage of my privacy.,EfA,EA-t5-base,fear,1,1,1,0,0,1,1,5,4,5,1,1,5,1,5,1,1,3,1,5,1,5,1,2,4,5,2,3
+2,When someone is trying to take advantage of my privacy.,EfA,EA-t5-base,fear,1,1,1,0,0,1,1,2,2,3,1,1,1,2,4,4,4,4,1,4,1,4,1,4,3,4,2,4
+0,When someone was trying to take advantage of my system and use my password to get access to my computer.,EfA,EA-t5-base,fear,1,0,1,0,0,1,0,3,3,4,1,1,4,2,1,2,3,5,1,2,1,2,4,2,2,3,5,2
+1,When someone was trying to take advantage of my system and use my password to get access to my computer.,EfA,EA-t5-base,fear,1,0,1,0,0,1,0,3,2,4,1,1,3,1,4,2,1,2,1,3,4,3,4,3,2,4,3,3
+2,When someone was trying to take advantage of my system and use my password to get access to my computer.,EfA,EA-t5-base,fear,1,0,1,0,0,1,0,3,1,3,2,1,3,2,4,1,1,5,1,3,4,3,3,2,3,4,3,3
+0,When someone tries to cheat on me,EfA,EA-t5-base,guilt,1,1,0,0,0,1,1,1,1,3,2,2,3,3,3,3,3,3,3,3,2,2,3,3,3,2,3,2
+1,When someone tries to cheat on me,EfA,EA-t5-base,guilt,1,1,0,0,0,1,1,5,4,3,1,1,4,1,3,1,1,1,1,1,1,1,5,1,1,1,5,1
+2,When someone tries to cheat on me,EfA,EA-t5-base,guilt,1,1,0,0,0,1,1,5,5,5,1,1,5,5,5,1,1,4,1,1,3,3,3,4,4,4,3,3
+0,When someone told me a good friend was coming to visit because I felt safe and at ease with the,EfA,EA-t5-base,joy,0,0,0,0,1,0,0,1,1,1,1,5,1,1,5,1,1,5,5,4,4,3,4,3,3,4,2,4
+1,When someone told me a good friend was coming to visit because I felt safe and at ease with the,EfA,EA-t5-base,joy,0,0,0,0,1,0,0,1,1,1,1,3,1,1,2,1,1,1,3,1,1,3,4,2,2,2,5,2
+2,When someone told me a good friend was coming to visit because I felt safe and at ease with the,EfA,EA-t5-base,joy,0,0,0,0,1,0,0,1,1,1,1,4,1,1,4,3,3,1,5,1,1,3,4,3,4,4,5,1
+0,When someone I love is in my life and I am able to be with them for the rest of,EfA,EA-t5-base,joy,1,1,0,0,1,1,1,1,1,1,1,5,1,1,3,4,2,1,4,3,1,2,3,2,3,4,3,2
+1,When someone I love is in my life and I am able to be with them for the rest of,EfA,EA-t5-base,joy,1,1,0,0,1,1,1,1,1,1,1,4,1,1,4,5,4,1,5,3,4,3,4,4,2,4,3,3
+2,When someone I love is in my life and I am able to be with them for the rest of,EfA,EA-t5-base,joy,1,1,0,0,1,1,1,1,1,2,1,5,1,1,4,5,5,1,5,3,3,1,4,1,2,4,3,3
+0,When someone passed away.,EfA,EA-t5-base,sadness,1,0,0,1,0,1,0,2,1,4,1,1,5,3,4,1,1,5,1,2,2,4,1,4,4,5,2,4
+1,When someone passed away.,EfA,EA-t5-base,sadness,1,0,0,1,0,1,0,1,1,1,1,1,3,1,2,1,1,4,1,2,3,4,2,4,2,5,3,4
+2,When someone passed away.,EfA,EA-t5-base,sadness,1,0,0,1,0,1,0,1,1,1,1,1,1,4,1,1,1,4,1,2,1,1,3,1,1,2,3,3
+0,When someone I love stopped coming to visit because I know I will never see them again and I am very,EfA,EA-t5-base,sadness,1,0,0,0,0,1,1,2,1,4,3,1,4,3,4,2,3,2,1,3,2,3,5,3,3,2,3,3
+1,When someone I love stopped coming to visit because I know I will never see them again and I am very,EfA,EA-t5-base,sadness,1,0,0,0,0,1,1,3,3,2,2,1,4,2,1,1,1,1,1,1,1,1,5,1,1,1,5,1
+2,When someone I love stopped coming to visit because I know I will never see them again and I am very,EfA,EA-t5-base,sadness,1,0,0,0,0,1,1,2,1,3,3,1,5,2,2,1,2,3,1,4,3,1,5,1,1,1,5,1
+0,when I lied to my parents about where I was going,EfA,EA-t5-base,guilt,1,1,1,0,0,1,1,2,3,3,5,1,2,4,5,5,5,2,1,4,4,5,1,4,4,5,1,4
+1,when I lied to my parents about where I was going,EfA,EA-t5-base,guilt,1,1,1,0,0,1,1,1,1,4,5,2,1,4,5,5,4,1,2,5,4,4,1,4,4,5,2,5
+2,when I lied to my parents about where I was going,EfA,EA-t5-base,guilt,1,1,1,0,0,1,1,2,2,4,4,1,2,4,4,5,5,1,2,3,4,5,2,5,4,4,1,5
+0,When someone passed away.,EfA,EA-t5-base,sadness,0,0,0,1,0,1,0,1,1,2,1,1,3,1,4,1,1,2,1,2,2,5,2,5,5,5,1,5
+1,When someone passed away.,EfA,EA-t5-base,sadness,0,0,0,1,0,1,0,1,1,1,1,1,5,1,5,1,1,5,1,5,1,4,1,5,3,5,1,5
+2,When someone passed away.,EfA,EA-t5-base,sadness,0,0,0,1,0,1,0,1,1,1,1,1,4,1,1,1,1,5,1,1,1,5,1,5,5,5,3,5
+0,When someone I love dies,EfA,EA-t5-base,sadness,1,1,0,0,0,1,1,5,1,5,1,1,5,1,5,1,1,5,1,5,1,2,4,1,1,5,3,3
+1,When someone I love dies,EfA,EA-t5-base,sadness,1,1,0,0,0,1,1,2,2,4,1,1,4,1,4,1,1,4,1,4,4,4,3,4,4,4,2,3
+2,When someone I love dies,EfA,EA-t5-base,sadness,1,1,0,0,0,1,1,3,1,3,3,1,5,1,3,1,1,5,1,1,2,3,1,4,3,4,2,5
+0,When I saw a dead mouse that my cat had killed.,EfA,EA-t5-base,disgust,1,0,0,1,0,1,0,3,2,3,3,3,3,3,3,3,3,2,2,2,2,3,2,3,3,2,3,2
+1,When I saw a dead mouse that my cat had killed.,EfA,EA-t5-base,disgust,1,0,0,1,0,1,0,3,4,3,3,1,5,2,3,1,1,5,1,2,3,2,3,3,2,3,5,2
+2,When I saw a dead mouse that my cat had killed.,EfA,EA-t5-base,disgust,1,0,0,1,0,1,0,4,5,4,4,1,4,3,4,2,3,3,1,3,2,3,4,3,3,4,3,4
+0,When I was late for work because I didn't want to be in a relationship with someone else,EfA,EA-t5-base,guilt,1,1,1,0,0,1,1,2,1,2,3,1,2,3,3,4,2,1,1,3,4,5,1,5,4,3,2,4
+1,When I was late for work because I didn't want to be in a relationship with someone else,EfA,EA-t5-base,guilt,1,1,1,0,0,1,1,1,1,3,1,1,3,3,1,4,5,1,1,4,4,1,5,1,1,1,5,1
+2,When I was late for work because I didn't want to be in a relationship with someone else,EfA,EA-t5-base,guilt,1,1,1,0,0,1,1,1,1,1,1,1,1,1,3,1,1,1,1,1,1,2,5,2,2,1,2,4
+0,When I was late for school because I didn’t want to go to the gym.,EfA,EA-t5-base,guilt,0,1,0,0,0,0,0,2,1,2,3,1,2,2,2,5,5,1,2,3,3,4,2,4,4,4,2,3
+1,When I was late for school because I didn’t want to go to the gym.,EfA,EA-t5-base,guilt,0,1,0,0,0,0,0,2,2,4,4,1,2,4,1,3,3,1,1,1,3,1,5,1,1,2,5,1
+2,When I was late for school because I didn’t want to go to the gym.,EfA,EA-t5-base,guilt,0,1,0,0,0,0,0,4,3,2,4,3,3,4,3,2,4,2,2,4,3,3,5,2,2,2,4,2
+0,when I lied to my friend about something I had done,EfA,EA-t5-base,guilt,1,1,1,0,0,0,1,1,2,3,4,1,4,4,5,5,4,3,1,4,4,3,2,4,4,5,1,3
+1,when I lied to my friend about something I had done,EfA,EA-t5-base,guilt,1,1,1,0,0,0,1,1,2,5,5,1,2,5,5,5,5,1,1,4,4,5,1,5,5,5,1,5
+2,when I lied to my friend about something I had done,EfA,EA-t5-base,guilt,1,1,1,0,0,0,1,1,2,2,5,1,3,4,3,5,5,1,2,3,3,4,3,3,3,1,4,2
+0,When I was able to complete my first project at work in record time with no issues.,EfA,EA-t5-base,joy,1,1,1,0,1,0,1,1,1,1,1,4,1,1,5,5,5,5,5,5,5,5,4,4,2,5,2,2
+1,When I was able to complete my first project at work in record time with no issues.,EfA,EA-t5-base,joy,1,1,1,0,1,0,1,1,1,1,1,5,1,1,5,5,5,1,5,5,2,5,1,5,4,4,2,5
+2,When I was able to complete my first project at work in record time with no issues.,EfA,EA-t5-base,joy,1,1,1,0,1,0,1,1,1,1,1,5,1,1,5,5,5,1,5,5,4,5,1,5,5,5,1,5
+0,When I got a job I really wanted because I had been trying for months to get.,EfA,EA-t5-base,joy,0,0,0,0,1,0,0,1,1,1,1,5,1,1,3,4,4,1,5,3,5,3,1,1,2,5,2,3
+1,When I got a job I really wanted because I had been trying for months to get.,EfA,EA-t5-base,joy,0,0,0,0,1,0,0,1,1,1,1,4,1,1,4,4,4,1,4,4,4,2,4,2,2,4,3,3
+2,When I got a job I really wanted because I had been trying for months to get.,EfA,EA-t5-base,joy,0,0,0,0,1,0,0,1,1,1,1,3,1,1,4,2,3,1,2,4,3,3,3,3,3,5,3,3
+0,When I got a job I really wanted because I had been trying for months to get.,EfA,EA-t5-base,joy,1,1,0,0,1,0,0,1,1,1,1,5,1,1,5,5,5,1,5,5,2,5,5,4,2,4,5,1
+1,When I got a job I really wanted because I had been trying for months to get.,EfA,EA-t5-base,joy,1,1,0,0,1,0,0,1,1,1,1,5,1,1,3,4,2,4,4,4,2,2,4,3,3,5,2,2
+2,When I got a job I really wanted because I had been trying for months to get.,EfA,EA-t5-base,joy,1,1,0,0,1,0,0,1,1,1,1,5,1,1,5,5,5,1,5,5,4,4,1,4,4,4,2,4
+0,When I was late to school because I didn't want to be in a relationship with someone else,EfA,EA-t5-base,shame,0,1,1,0,0,0,0,5,5,5,5,1,5,3,5,5,5,5,1,5,2,5,4,4,2,4,5,1
+1,When I was late to school because I didn't want to be in a relationship with someone else,EfA,EA-t5-base,shame,0,1,1,0,0,0,0,1,1,3,4,1,4,2,5,5,4,1,1,5,5,5,1,5,5,5,1,5
+2,When I was late to school because I didn't want to be in a relationship with someone else,EfA,EA-t5-base,shame,0,1,1,0,0,0,0,3,4,3,3,4,3,3,3,3,3,3,1,3,3,1,5,1,1,1,5,1
+0,When a friend of mine called me a liar and said he didn't like,EfA,EA-t5-base,anger,0,0,0,0,0,1,0,2,2,3,3,1,3,3,3,2,1,1,1,2,1,2,4,3,2,4,4,2
+1,When a friend of mine called me a liar and said he didn't like,EfA,EA-t5-base,anger,0,0,0,0,0,1,0,2,2,1,3,1,5,4,4,2,2,1,1,4,3,1,5,3,1,5,3,3
+2,When a friend of mine called me a liar and said he didn't like,EfA,EA-t5-base,anger,0,0,0,0,0,1,0,4,4,3,2,1,3,3,2,3,3,3,1,3,3,3,2,3,3,3,3,3
+0,When a man abused my child,EfA,EA-t5-base,disgust,1,0,0,0,0,1,0,5,5,5,5,1,5,5,5,1,2,4,1,5,2,4,1,4,3,4,1,4
+1,When a man abused my child,EfA,EA-t5-base,disgust,1,0,0,0,0,1,0,5,4,4,5,1,5,4,5,1,1,3,1,5,1,5,1,5,3,5,2,4
+2,When a man abused my child,EfA,EA-t5-base,disgust,1,0,0,0,0,1,0,5,5,2,3,1,4,1,4,1,1,1,1,5,2,5,2,3,5,4,1,5
+0,When a friend of mine cheated on me because I knew I would never get a better deal,EfA,EA-t5-base,guilt,1,1,1,0,0,0,0,4,3,2,2,1,3,2,2,2,1,1,1,3,2,3,2,3,1,2,5,1
+1,When a friend of mine cheated on me because I knew I would never get a better deal,EfA,EA-t5-base,guilt,1,1,1,0,0,0,0,4,4,1,1,1,4,1,3,3,2,4,1,4,3,1,3,1,3,1,5,1
+2,When a friend of mine cheated on me because I knew I would never get a better deal,EfA,EA-t5-base,guilt,1,1,1,0,0,0,0,2,2,1,1,1,3,1,3,4,1,4,1,1,1,3,4,2,2,3,1,3
+0,When a friend of mine told me he was coming to visit because I felt safe,EfA,EA-t5-base,joy,0,0,0,0,1,0,0,2,1,1,1,2,1,2,2,2,1,2,3,3,2,4,3,3,2,3,4,2
+1,When a friend of mine told me he was coming to visit because I felt safe,EfA,EA-t5-base,joy,0,0,0,0,1,0,0,1,1,1,1,1,1,1,4,1,2,4,3,3,3,3,3,1,3,1,5,1
+2,When a friend of mine told me he was coming to visit because I felt safe,EfA,EA-t5-base,joy,0,0,0,0,1,0,0,1,1,1,1,2,1,1,1,1,1,4,2,1,1,3,5,3,2,4,2,4
+0,When a colleague lied to me about where she was.,EfA,EA-t5-base,shame,1,1,1,0,0,1,0,3,1,1,1,1,4,3,3,1,1,1,1,4,5,4,5,4,4,5,2,2
+1,When a colleague lied to me about where she was.,EfA,EA-t5-base,shame,1,1,1,0,0,1,0,5,2,1,1,1,4,1,5,1,1,1,1,2,1,4,4,1,3,5,3,2
+2,When a colleague lied to me about where she was.,EfA,EA-t5-base,shame,1,1,1,0,0,1,0,2,2,1,1,1,4,3,5,1,2,1,1,3,3,5,5,5,5,5,4,2
+0,I was a student at my college and my teacher was rude to me for no reason last week.,EfA,EA-t5-base,anger,1,0,0,1,0,1,0,3,1,2,1,1,2,2,3,1,1,3,1,2,1,3,3,4,2,5,2,3
+1,I was a student at my college and my teacher was rude to me for no reason last week.,EfA,EA-t5-base,anger,1,0,0,1,0,1,0,5,2,3,1,1,5,3,3,1,1,1,1,3,4,3,5,4,3,5,3,3
+2,I was a student at my college and my teacher was rude to me for no reason last week.,EfA,EA-t5-base,anger,1,0,0,1,0,1,0,2,4,4,1,1,3,3,3,1,1,4,1,2,1,5,1,4,4,4,3,3
+0,I was walking home from school and a man started to snatch away food from his bag,EfA,EA-t5-base,disgust,1,0,0,0,0,0,0,1,2,2,1,1,1,1,2,1,1,1,1,1,1,3,4,2,2,3,4,2
+1,I was walking home from school and a man started to snatch away food from his bag,EfA,EA-t5-base,disgust,1,0,0,0,0,0,0,1,1,2,1,1,1,1,5,1,2,1,1,1,1,1,5,1,1,1,2,1
+2,I was walking home from school and a man started to snatch away food from his bag,EfA,EA-t5-base,disgust,1,0,0,0,0,0,0,3,3,2,2,1,2,2,4,1,2,2,2,2,2,2,4,2,2,2,4,2
+0,I was walking home alone and a dog ran up to me and started barking at me.,EfA,EA-t5-base,fear,1,0,0,1,0,0,0,2,2,3,1,1,1,1,5,1,2,4,1,5,1,5,1,5,4,5,1,5
+1,I was walking home alone and a dog ran up to me and started barking at me.,EfA,EA-t5-base,fear,1,0,0,1,0,0,0,2,1,3,1,2,1,1,4,1,2,5,3,3,1,5,2,4,4,5,2,4
+2,I was walking home alone and a dog ran up to me and started barking at me.,EfA,EA-t5-base,fear,1,0,0,1,0,0,0,2,1,4,1,1,1,2,2,2,2,3,1,3,1,5,1,5,5,5,1,5
+0,I was late to work because I didn’t want to be in a relationship with someone else.,EfA,EA-t5-base,guilt,1,1,1,0,0,1,1,1,1,1,1,1,1,1,5,5,5,1,1,1,5,1,5,1,1,1,5,1
+1,I was late to work because I didn’t want to be in a relationship with someone else.,EfA,EA-t5-base,guilt,1,1,1,0,0,1,1,2,1,3,2,1,5,2,5,5,5,1,1,4,2,5,1,5,5,5,4,5
+2,I was late to work because I didn’t want to be in a relationship with someone else.,EfA,EA-t5-base,guilt,1,1,1,0,0,1,1,1,3,1,1,1,1,2,1,1,4,4,2,1,3,1,5,1,2,1,5,1
+0,I was ill and had to go to the hospital to be put under general anesthesia.,EfA,EA-t5-base,sadness,1,0,0,1,0,1,1,1,2,4,3,1,4,2,4,3,2,4,1,2,2,3,2,3,3,4,3,3
+1,I was ill and had to go to the hospital to be put under general anesthesia.,EfA,EA-t5-base,sadness,1,0,0,1,0,1,1,1,1,2,1,1,2,1,4,2,2,3,1,2,4,4,1,4,3,5,2,4
+2,I was ill and had to go to the hospital to be put under general anesthesia.,EfA,EA-t5-base,sadness,1,0,0,1,0,1,1,1,1,4,1,1,1,1,5,1,1,2,1,4,4,5,1,5,5,5,3,3
+0,I was ill and had to go to the hospital to be screened for HIV/AIDS. My,EfA,EA-t5-base,sadness,0,0,0,1,0,1,0,4,3,3,3,1,2,2,4,4,4,4,4,4,4,4,2,2,2,3,3,2
+1,I was ill and had to go to the hospital to be screened for HIV/AIDS. My,EfA,EA-t5-base,sadness,0,0,0,1,0,1,0,2,1,4,3,1,3,2,3,3,1,2,1,2,4,2,2,2,2,3,4,2
+2,I was ill and had to go to the hospital to be screened for HIV/AIDS. My,EfA,EA-t5-base,sadness,0,0,0,1,0,1,0,5,5,5,5,1,5,5,5,4,1,3,1,3,5,5,3,4,3,3,3,2
+0,I was late with work and I didn't get a job I wanted.,EfA,EA-t5-base,shame,1,1,1,0,0,1,0,2,1,1,4,1,3,2,4,4,4,1,1,3,2,4,1,3,3,2,2,3
+1,I was late with work and I didn't get a job I wanted.,EfA,EA-t5-base,shame,1,1,1,0,0,1,0,3,3,3,4,1,3,4,2,3,3,1,1,1,3,2,4,2,2,2,4,1
+2,I was late with work and I didn't get a job I wanted.,EfA,EA-t5-base,shame,1,1,1,0,0,1,0,1,4,2,4,2,4,3,4,2,4,2,4,4,3,4,2,2,3,3,4,3
+0,I had to clean my cat's litter box because it smelled so bad.,EfA,EA-t5-base,disgust,0,0,0,0,0,0,1,2,3,1,2,1,1,2,5,2,2,2,1,3,3,5,1,4,5,1,2,3
+1,I had to clean my cat's litter box because it smelled so bad.,EfA,EA-t5-base,disgust,0,0,0,0,0,0,1,2,5,1,1,1,2,1,3,2,4,2,1,3,3,4,1,5,5,5,1,5
+2,I had to clean my cat's litter box because it smelled so bad.,EfA,EA-t5-base,disgust,0,0,0,0,0,0,1,1,5,1,4,1,2,3,4,2,4,1,1,4,5,5,4,5,5,5,2,4
+0,I had to take time off from work because I didn't want to spend time with my family.,EfA,EA-t5-base,guilt,1,1,0,0,0,1,1,3,3,3,2,1,3,3,5,5,5,5,1,5,5,5,1,4,2,5,2,4
+1,I had to take time off from work because I didn't want to spend time with my family.,EfA,EA-t5-base,guilt,1,1,0,0,0,1,1,3,4,2,2,1,4,4,3,3,5,5,1,3,5,3,3,3,3,3,3,3
+2,I had to take time off from work because I didn't want to spend time with my family.,EfA,EA-t5-base,guilt,1,1,0,0,0,1,1,3,2,1,3,1,3,3,1,1,2,1,1,4,1,1,5,1,2,2,5,1
+0,I had to move into a new apartment with my boyfriend and bring my cat with me.,EfA,EA-t5-base,joy,0,1,1,0,1,0,1,2,1,2,2,4,2,3,4,4,4,2,3,4,2,5,1,5,5,5,1,5
+1,I had to move into a new apartment with my boyfriend and bring my cat with me.,EfA,EA-t5-base,joy,0,1,1,0,1,0,1,1,1,2,1,4,1,1,5,5,4,3,4,4,2,4,4,3,4,5,3,4
+2,I had to move into a new apartment with my boyfriend and bring my cat with me.,EfA,EA-t5-base,joy,0,1,1,0,1,0,1,1,1,1,1,5,1,1,4,5,5,2,4,4,5,4,1,4,4,5,2,4
+0,I had to take part in an online job-interview using software I had never used before.,EfA,EA-t5-base,joy,1,1,1,0,1,1,0,1,1,3,1,2,1,1,4,4,3,3,2,3,3,4,2,3,3,4,3,3
+1,I had to take part in an online job-interview using software I had never used before.,EfA,EA-t5-base,joy,1,1,1,0,1,1,0,2,1,2,1,1,1,1,5,3,4,3,3,4,4,5,1,5,5,5,2,4
+2,I had to take part in an online job-interview using software I had never used before.,EfA,EA-t5-base,joy,1,1,1,0,1,1,0,1,1,2,1,2,1,1,5,3,3,1,2,3,3,5,1,5,5,5,3,3
+0,I had to go into hospital with covid-19,EfA,EA-t5-base,sadness,1,0,0,1,0,1,1,2,1,5,2,1,4,2,5,1,3,4,1,4,2,5,2,5,4,5,2,4
+1,I had to go into hospital with covid-19,EfA,EA-t5-base,sadness,1,0,0,1,0,1,1,2,2,4,2,1,3,1,4,2,1,2,1,4,3,4,1,4,3,4,1,4
+2,I had to go into hospital with covid-19,EfA,EA-t5-base,sadness,1,0,0,1,0,1,1,2,1,4,2,1,4,3,5,2,1,4,1,5,5,5,1,5,5,5,5,5
+0,I had to go into hospital with covid-19,EfA,EA-t5-base,sadness,0,0,0,1,0,1,1,2,2,5,2,1,4,2,5,2,3,4,1,2,2,5,1,5,5,5,2,4
+1,I had to go into hospital with covid-19,EfA,EA-t5-base,sadness,0,0,0,1,0,1,1,1,1,3,1,1,3,1,4,2,1,3,1,4,3,5,1,5,5,5,2,5
+2,I had to go into hospital with covid-19,EfA,EA-t5-base,sadness,0,0,0,1,0,1,1,2,1,4,2,1,4,1,5,2,2,4,1,5,4,5,1,5,5,5,3,3
+0,I had to go back to work after a long time apart due to COVID-19,EfA,EA-t5-base,shame,1,1,1,0,0,1,1,3,1,3,1,3,3,1,3,1,1,5,1,3,2,3,3,3,3,4,3,3
+1,I had to go back to work after a long time apart due to COVID-19,EfA,EA-t5-base,shame,1,1,1,0,0,1,1,1,2,2,1,1,2,2,4,3,3,4,1,5,3,4,3,2,3,4,4,2
+2,I had to go back to work after a long time apart due to COVID-19,EfA,EA-t5-base,shame,1,1,1,0,0,1,1,2,1,2,1,1,3,1,3,1,1,5,1,3,4,3,1,3,3,5,2,2
+0,I had to go to the gym,EfA,EA-t5-base,shame,1,1,1,0,0,1,0,1,2,1,1,1,2,1,3,3,3,1,2,4,2,5,1,5,5,5,1,5
+1,I had to go to the gym,EfA,EA-t5-base,shame,1,1,1,0,0,1,0,1,1,2,1,1,1,1,1,5,5,1,1,5,3,5,1,5,5,5,1,5
+2,I had to go to the gym,EfA,EA-t5-base,shame,1,1,1,0,0,1,0,1,1,1,1,1,1,1,1,5,4,1,1,3,1,5,1,5,5,5,4,5
+0,I had to go back to work after a long time apart due to COVID-19,EfA,EA-t5-base,shame,0,1,0,0,0,0,1,1,1,3,1,2,2,1,4,1,1,5,1,4,3,5,3,1,5,5,2,3
+1,I had to go back to work after a long time apart due to COVID-19,EfA,EA-t5-base,shame,0,1,0,0,0,0,1,1,1,1,1,1,3,1,4,1,1,4,3,4,4,4,1,4,4,4,1,4
+2,I had to go back to work after a long time apart due to COVID-19,EfA,EA-t5-base,shame,0,1,0,0,0,0,1,3,3,3,1,2,4,1,4,1,1,3,1,2,2,5,1,5,5,5,1,5
+0,I got a bad mark on my work,EfA,EA-t5-base,shame,0,1,0,0,0,0,1,5,5,2,4,1,5,3,5,5,5,1,1,2,3,5,1,5,5,5,1,5
+1,I got a bad mark on my work,EfA,EA-t5-base,shame,0,1,0,0,0,0,1,4,3,2,5,1,5,4,5,5,5,1,1,4,1,5,1,5,5,5,3,5
+2,I got a bad mark on my work,EfA,EA-t5-base,shame,0,1,0,0,0,0,1,4,4,1,4,1,2,2,4,4,4,2,1,4,3,4,2,2,3,3,1,5
+0,When my partner was having an argument with me over a drink that I shouldn't have.,EfA,EA-t5-base,anger,1,0,0,0,0,1,1,1,3,4,3,1,3,3,3,4,3,2,1,4,2,1,4,2,3,4,4,2
+1,When my partner was having an argument with me over a drink that I shouldn't have.,EfA,EA-t5-base,anger,1,0,0,0,0,1,1,2,2,3,3,1,3,2,5,3,3,1,1,2,2,4,2,3,3,4,2,3
+2,When my partner was having an argument with me over a drink that I shouldn't have.,EfA,EA-t5-base,anger,1,0,0,0,0,1,1,5,2,2,1,1,2,2,2,3,4,1,1,5,3,5,1,4,4,5,3,3
+0,When my dog ate his dog's food because it was so poor quality,EfA,EA-t5-base,disgust,1,0,0,0,0,0,0,3,2,4,3,2,3,3,3,4,3,4,2,3,2,3,3,3,3,4,3,4
+1,When my dog ate his dog's food because it was so poor quality,EfA,EA-t5-base,disgust,1,0,0,0,0,0,0,2,1,1,1,1,3,1,1,1,4,2,1,2,3,1,5,1,2,2,5,1
+2,When my dog ate his dog's food because it was so poor quality,EfA,EA-t5-base,disgust,1,0,0,0,0,0,0,3,4,2,5,2,4,4,2,3,3,2,3,4,4,2,4,2,3,3,4,2
+0,for not doing my homework in the time frame I set for myself,EfA,EA-t5-base,shame,1,1,1,0,0,1,0,3,2,3,4,1,4,3,5,5,5,2,1,4,5,2,3,3,3,4,3,3
+1,for not doing my homework in the time frame I set for myself,EfA,EA-t5-base,shame,1,1,1,0,0,1,0,3,3,2,4,1,4,3,5,5,4,1,1,4,4,4,3,4,4,5,2,4
+2,for not doing my homework in the time frame I set for myself,EfA,EA-t5-base,shame,1,1,1,0,0,1,0,3,3,4,5,2,2,3,3,5,5,1,1,4,5,3,2,4,4,5,4,2
+0,When my dog got sick because I didn't know if I was going to make it to the,EfA,EA-t5-base,fear,1,0,0,1,0,1,1,2,1,3,4,1,3,3,3,4,4,2,1,3,3,4,2,3,4,3,2,3
+1,When my dog got sick because I didn't know if I was going to make it to the,EfA,EA-t5-base,fear,1,0,0,1,0,1,1,1,1,1,1,1,1,1,2,2,2,2,1,1,3,1,5,1,1,1,5,1
+2,When my dog got sick because I didn't know if I was going to make it to the,EfA,EA-t5-base,fear,1,0,0,1,0,1,1,4,5,4,2,1,4,1,2,1,1,5,1,4,2,2,4,3,3,4,3,3
+0,When my daughter was rushed for a spinal tap after developing mottled skin.,EfA,EA-t5-base,fear,1,0,0,0,0,1,1,1,1,4,1,1,4,1,4,1,1,2,1,4,1,4,1,4,3,4,1,4
+1,When my daughter was rushed for a spinal tap after developing mottled skin.,EfA,EA-t5-base,fear,1,0,0,0,0,1,1,3,1,5,3,1,5,2,5,1,1,4,1,3,5,5,1,5,5,5,1,5
+2,When my daughter was rushed for a spinal tap after developing mottled skin.,EfA,EA-t5-base,fear,1,0,0,0,0,1,1,4,2,3,2,3,5,1,1,3,3,2,4,3,4,5,3,3,1,3,3,4
+0,When my dog ate his food because I didn't want it to be bad.,EfA,EA-t5-base,guilt,0,1,1,0,0,0,1,1,1,3,2,1,1,1,2,1,2,1,1,1,2,1,3,1,1,2,3,3
+1,When my dog ate his food because I didn't want it to be bad.,EfA,EA-t5-base,guilt,0,1,1,0,0,0,1,1,1,1,1,1,1,1,4,1,4,1,1,1,4,3,3,3,3,5,3,4
+2,When my dog ate his food because I didn't want it to be bad.,EfA,EA-t5-base,guilt,0,1,1,0,0,0,1,2,3,2,2,1,1,2,3,3,4,2,2,2,3,1,4,2,2,2,4,2
+0,When my boyfriend told me he was leaving for college because I felt like I was missing out on something,EfA,EA-t5-base,guilt,0,1,0,0,0,0,0,2,1,3,2,1,4,2,5,2,1,5,1,3,4,4,2,4,4,5,1,4
+1,When my boyfriend told me he was leaving for college because I felt like I was missing out on something,EfA,EA-t5-base,guilt,0,1,0,0,0,0,0,2,1,2,1,1,4,1,3,1,1,2,1,3,2,4,3,2,4,3,5,2
+2,When my boyfriend told me he was leaving for college because I felt like I was missing out on something,EfA,EA-t5-base,guilt,0,1,0,0,0,0,0,4,2,4,2,1,4,3,2,1,3,2,1,4,5,2,4,1,2,4,5,1
+0,When my partner told me he was leaving because I was pregnant with my first child.,EfA,EA-t5-base,guilt,1,0,1,0,0,1,1,5,4,5,1,1,5,2,3,4,2,3,1,4,3,1,4,1,3,4,4,1
+1,When my partner told me he was leaving because I was pregnant with my first child.,EfA,EA-t5-base,guilt,1,0,1,0,0,1,1,3,1,3,2,1,4,2,5,4,2,1,1,4,3,4,1,4,3,4,2,4
+2,When my partner told me he was leaving because I was pregnant with my first child.,EfA,EA-t5-base,guilt,1,0,1,0,0,1,1,5,1,3,2,1,5,2,5,2,1,1,1,5,4,5,1,5,4,5,1,5
+0,When my partner told me he was leaving for college because I was too busy to do the work and,EfA,EA-t5-base,guilt,1,1,1,0,0,0,0,1,2,1,3,1,4,2,1,5,5,1,1,1,2,1,5,1,1,1,5,1
+1,When my partner told me he was leaving for college because I was too busy to do the work and,EfA,EA-t5-base,guilt,1,1,1,0,0,0,0,2,1,1,4,1,3,2,3,4,5,1,1,1,1,3,4,3,4,5,3,3
+2,When my partner told me he was leaving for college because I was too busy to do the work and,EfA,EA-t5-base,guilt,1,1,1,0,0,0,0,3,3,3,2,1,2,2,4,2,3,3,1,3,3,5,5,5,5,5,1,5
+0,When my dog was playing with his friends after a long time apart due to covid,EfA,EA-t5-base,joy,0,0,0,0,1,0,0,1,1,1,3,4,2,1,2,3,4,1,4,3,4,2,4,2,2,3,3,3
+1,When my dog was playing with his friends after a long time apart due to covid,EfA,EA-t5-base,joy,0,0,0,0,1,0,0,1,1,1,1,4,1,1,5,3,4,4,4,3,3,2,4,4,4,4,4,2
+2,When my dog was playing with his friends after a long time apart due to covid,EfA,EA-t5-base,joy,0,0,0,0,1,0,0,1,1,1,1,5,1,1,2,1,1,5,1,3,1,1,4,1,1,5,4,1
+0,when i lied to my parents about where I was going,EfA,EA-t5-base,shame,0,1,1,0,0,0,1,1,1,2,5,1,1,4,4,5,5,1,1,2,4,4,4,4,4,5,2,3
+1,when i lied to my parents about where I was going,EfA,EA-t5-base,shame,0,1,1,0,0,0,1,2,2,2,3,1,1,2,4,4,4,1,1,4,3,4,3,4,4,4,1,4
+2,when i lied to my parents about where I was going,EfA,EA-t5-base,shame,0,1,1,0,0,0,1,3,3,4,4,2,2,4,4,5,4,1,2,4,4,5,1,5,5,5,1,5
+0,When my mother-in-law was a convicted paedophile,EfA,EA-t5-base,shame,1,0,0,0,0,1,0,5,5,5,5,1,5,5,4,1,1,2,1,4,1,3,5,2,2,3,3,3
+1,When my mother-in-law was a convicted paedophile,EfA,EA-t5-base,shame,1,0,0,0,0,1,0,2,5,2,1,1,2,4,4,1,1,4,1,2,1,3,3,3,3,4,4,2
+2,When my mother-in-law was a convicted paedophile,EfA,EA-t5-base,shame,1,0,0,0,0,1,0,5,5,5,1,1,5,5,3,1,1,5,1,3,1,2,2,3,2,5,2,2
+0,I found out my partner was being racist.,EfA,EA-t5-base,anger,1,0,0,0,0,1,1,3,4,2,2,1,3,3,3,1,1,1,1,3,1,5,1,5,4,4,2,5
+1,I found out my partner was being racist.,EfA,EA-t5-base,anger,1,0,0,0,0,1,1,5,5,5,2,1,5,5,5,1,2,1,1,5,4,5,1,5,5,5,3,5
+2,I found out my partner was being racist.,EfA,EA-t5-base,anger,1,0,0,0,0,1,1,5,5,3,2,1,4,5,2,2,2,4,1,3,2,4,1,4,4,4,3,4
+0,I found out my partner was cheating on me,EfA,EA-t5-base,anger,0,0,0,0,0,1,0,5,5,5,5,1,5,5,5,1,1,5,1,5,5,5,1,5,5,5,1,5
+1,I found out my partner was cheating on me,EfA,EA-t5-base,anger,0,0,0,0,0,1,0,5,5,3,1,1,5,2,5,1,1,1,1,4,1,4,2,3,4,5,2,5
+2,I found out my partner was cheating on me,EfA,EA-t5-base,anger,0,0,0,0,0,1,0,4,4,4,1,1,2,2,4,1,1,2,1,4,1,4,2,4,4,4,2,3
+0,I found out my partner was cheating on me.,EfA,EA-t5-base,anger,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,3,2,3,3,3,4,2,3,3,3,3,3,3
+1,I found out my partner was cheating on me.,EfA,EA-t5-base,anger,0,0,0,0,0,0,1,5,5,3,1,1,5,2,5,3,1,3,1,3,3,5,2,4,4,5,1,5
+2,I found out my partner was cheating on me.,EfA,EA-t5-base,anger,0,0,0,0,0,0,1,5,5,5,5,5,5,5,5,1,3,4,1,3,3,3,3,4,3,4,3,4
+0,I found out that my partner was being racist.,EfA,EA-t5-base,disgust,1,0,0,0,0,1,1,4,4,2,2,1,3,3,3,1,1,1,1,3,1,5,1,4,5,4,2,4
+1,I found out that my partner was being racist.,EfA,EA-t5-base,disgust,1,0,0,0,0,1,1,5,5,3,2,1,5,5,5,1,3,1,1,4,4,5,1,5,5,5,5,5
+2,I found out that my partner was being racist.,EfA,EA-t5-base,disgust,1,0,0,0,0,1,1,3,4,4,2,1,4,5,3,1,1,5,1,3,1,5,1,4,4,3,3,4
+0,I found out my partner was pregnant,EfA,EA-t5-base,disgust,1,0,0,1,0,1,0,2,1,3,1,1,1,1,5,5,2,1,2,4,5,4,2,3,3,5,3,2
+1,I found out my partner was pregnant,EfA,EA-t5-base,disgust,1,0,0,1,0,1,0,1,1,3,2,3,2,1,5,5,4,1,3,4,3,5,1,5,5,5,2,5
+2,I found out my partner was pregnant,EfA,EA-t5-base,disgust,1,0,0,1,0,1,0,1,1,2,1,5,1,2,5,5,5,2,4,5,3,5,1,4,5,5,1,5
+0,"I found out my son was suffering from depression and was taking medication to help him, which he eventually",EfA,EA-t5-base,guilt,1,1,1,0,0,1,0,2,1,2,4,1,5,1,5,1,1,5,1,4,3,4,1,1,2,5,5,1
+1,"I found out my son was suffering from depression and was taking medication to help him, which he eventually",EfA,EA-t5-base,guilt,1,1,1,0,0,1,0,1,1,2,2,1,2,1,4,1,1,3,1,4,4,4,4,2,2,4,4,2
+2,"I found out my son was suffering from depression and was taking medication to help him, which he eventually",EfA,EA-t5-base,guilt,1,1,1,0,0,1,0,3,1,4,4,1,4,4,3,1,1,1,1,2,2,4,2,4,4,5,2,4
+0,I found out my partner had been cheating on me,EfA,EA-t5-base,guilt,0,1,1,0,0,0,1,4,3,2,1,1,4,2,3,1,1,1,1,4,2,5,1,5,5,5,1,5
+1,I found out my partner had been cheating on me,EfA,EA-t5-base,guilt,0,1,1,0,0,0,1,5,5,3,1,1,5,3,5,1,1,5,1,5,4,5,1,5,1,5,1,5
+2,I found out my partner had been cheating on me,EfA,EA-t5-base,guilt,0,1,1,0,0,0,1,4,4,2,1,1,4,4,1,1,1,5,1,3,3,5,1,5,5,5,4,5
+0,I found out I was pregnant after being put to sleep,EfA,EA-t5-base,joy,1,1,1,0,1,0,0,5,5,5,5,1,5,5,1,1,1,1,1,1,1,5,4,5,2,1,5,1
+1,I found out I was pregnant after being put to sleep,EfA,EA-t5-base,joy,1,1,1,0,1,0,0,1,1,3,1,4,1,1,5,3,1,1,3,4,1,5,3,3,3,3,3,3
+2,I found out I was pregnant after being put to sleep,EfA,EA-t5-base,joy,1,1,1,0,1,0,0,3,3,3,3,3,3,3,1,1,1,1,1,1,1,1,5,1,1,1,5,1
+0,I found out my ex was suffering from alcoholism,EfA,EA-t5-base,sadness,0,0,0,0,0,1,0,5,2,4,2,1,5,1,5,1,1,2,1,2,1,5,1,4,5,5,1,5
+1,I found out my ex was suffering from alcoholism,EfA,EA-t5-base,sadness,0,0,0,0,0,1,0,2,3,1,1,1,4,1,4,1,1,4,1,4,4,4,1,4,4,4,1,4
+2,I found out my ex was suffering from alcoholism,EfA,EA-t5-base,sadness,0,0,0,0,0,1,0,4,3,5,2,1,5,3,5,1,1,2,1,4,1,5,1,5,5,5,1,5
+0,I found out my grandad had passed away.,EfA,EA-t5-base,sadness,0,0,0,1,0,1,0,5,1,1,1,1,5,1,5,1,1,5,1,5,3,5,1,5,5,5,1,5
+1,I found out my grandad had passed away.,EfA,EA-t5-base,sadness,0,0,0,1,0,1,0,2,2,2,2,1,4,1,4,1,1,3,1,4,4,4,1,4,4,4,1,4
+2,I found out my grandad had passed away.,EfA,EA-t5-base,sadness,0,0,0,1,0,1,0,3,1,2,2,1,4,1,3,1,1,1,1,2,1,5,1,5,5,5,1,5
+0,I found out I was pregnant after being told I wasn't pregnant because I thought it would never happen,EfA,EA-t5-base,shame,0,1,1,0,0,0,0,2,1,1,2,2,1,2,3,4,2,1,2,3,1,3,4,3,2,3,4,2
+1,I found out I was pregnant after being told I wasn't pregnant because I thought it would never happen,EfA,EA-t5-base,shame,0,1,1,0,0,0,0,1,1,1,1,5,1,1,5,4,3,3,4,5,5,1,1,1,3,1,5,1
+2,I found out I was pregnant after being told I wasn't pregnant because I thought it would never happen,EfA,EA-t5-base,shame,0,1,1,0,0,0,0,2,1,1,1,4,1,1,2,2,1,4,4,1,3,3,3,3,3,5,1,4
+0,I found out I was pregnant,EfA,EA-t5-base,shame,0,1,1,0,0,0,1,1,1,4,2,4,4,3,5,4,4,1,3,5,4,5,1,5,5,5,1,5
+1,I found out I was pregnant,EfA,EA-t5-base,shame,0,1,1,0,0,0,1,1,1,2,1,5,1,1,5,5,5,4,5,5,4,5,1,5,1,5,1,5
+2,I found out I was pregnant,EfA,EA-t5-base,shame,0,1,1,0,0,0,1,1,2,4,2,4,2,2,5,5,5,2,3,3,3,5,1,5,5,5,2,4
+0,I felt a lot of  when I saw my partner being racially abusive to him,EfA,EA-t5-base,anger,1,0,0,0,0,0,1,5,5,5,5,1,5,5,5,1,2,2,1,5,1,2,4,1,3,4,4,2
+1,I felt a lot of  when I saw my partner being racially abusive to him,EfA,EA-t5-base,anger,1,0,0,0,0,0,1,5,5,4,5,1,4,5,5,1,3,5,1,4,2,1,5,2,1,3,5,1
+2,I felt a lot of  when I saw my partner being racially abusive to him,EfA,EA-t5-base,anger,1,0,0,0,0,0,1,5,5,5,2,1,5,2,4,1,1,4,1,3,1,1,5,1,2,3,4,1
+0,I went to a restaurant to try their dishes. They were very poor quality and did not clean up,EfA,EA-t5-base,disgust,1,0,0,0,0,1,0,2,2,2,2,2,2,2,3,3,4,3,3,3,3,3,3,4,3,3,3,2
+1,I went to a restaurant to try their dishes. They were very poor quality and did not clean up,EfA,EA-t5-base,disgust,1,0,0,0,0,1,0,3,3,1,1,1,2,1,3,1,1,2,1,2,3,3,3,4,3,3,3,3
+2,I went to a restaurant to try their dishes. They were very poor quality and did not clean up,EfA,EA-t5-base,disgust,1,0,0,0,0,1,0,5,5,1,3,1,3,1,5,1,3,3,1,3,4,3,4,3,3,4,3,4
+0,I went to the store and bought some milk so I could have cereal in the morning before going to work,EfA,EA-t5-base,fear,1,1,0,0,0,1,0,1,1,1,1,3,1,1,4,5,5,1,3,2,3,4,2,4,4,4,1,3
+1,I went to the store and bought some milk so I could have cereal in the morning before going to work,EfA,EA-t5-base,fear,1,1,0,0,0,1,0,1,1,1,1,3,1,1,2,5,5,1,2,3,2,5,1,5,5,5,1,5
+2,I went to the store and bought some milk so I could have cereal in the morning before going to work,EfA,EA-t5-base,fear,1,1,0,0,0,1,0,1,1,1,1,3,1,1,5,5,5,1,2,4,5,5,1,5,5,5,2,4
+0,I went to the grocery store and bought some milk.,EfA,EA-t5-base,guilt,1,1,1,0,0,1,1,1,1,1,1,2,1,1,5,5,5,1,3,2,1,5,1,5,4,5,1,5
+1,I went to the grocery store and bought some milk.,EfA,EA-t5-base,guilt,1,1,1,0,0,1,1,1,1,1,1,3,1,1,5,5,5,1,4,4,5,5,1,5,5,5,4,5
+2,I went to the grocery store and bought some milk.,EfA,EA-t5-base,guilt,1,1,1,0,0,1,1,1,1,1,1,4,1,1,4,3,4,4,4,3,3,4,1,5,3,4,1,5
+0,I went to the doctor for my ptsd because I knew I would never get a,EfA,EA-t5-base,sadness,1,1,1,0,0,1,1,1,1,2,1,1,4,4,3,4,5,1,1,3,4,3,1,1,2,3,3,2
+1,I went to the doctor for my ptsd because I knew I would never get a,EfA,EA-t5-base,sadness,1,1,1,0,0,1,1,3,3,2,1,1,2,1,4,1,2,2,1,4,4,2,3,2,2,4,2,2
+2,I went to the doctor for my ptsd because I knew I would never get a,EfA,EA-t5-base,sadness,1,1,1,0,0,1,1,4,3,4,1,1,1,3,3,1,2,3,1,1,2,4,2,4,4,5,2,4
+0,I went to the gym and snuck out because I wasn't allowed to wear a,EfA,EA-t5-base,shame,1,1,1,0,0,0,0,4,4,4,4,2,2,2,5,5,5,2,1,5,5,2,5,2,2,2,5,1
+1,I went to the gym and snuck out because I wasn't allowed to wear a,EfA,EA-t5-base,shame,1,1,1,0,0,0,0,1,1,2,2,1,1,3,3,5,5,3,1,2,4,5,2,4,3,5,3,3
+2,I went to the gym and snuck out because I wasn't allowed to wear a,EfA,EA-t5-base,shame,1,1,1,0,0,0,0,4,5,3,3,1,2,3,2,3,3,3,4,2,3,1,5,1,2,2,4,1
+0,I did not do what I said and my boss said it because he was not listening to me and,EfA,EA-t5-base,anger,0,0,0,0,0,0,1,3,1,2,5,1,1,2,3,5,5,1,1,1,4,1,5,1,1,4,5,1
+1,I did not do what I said and my boss said it because he was not listening to me and,EfA,EA-t5-base,anger,0,0,0,0,0,0,1,2,2,1,2,1,2,1,4,4,4,1,1,4,4,2,4,1,1,4,3,2
+2,I did not do what I said and my boss said it because he was not listening to me and,EfA,EA-t5-base,anger,0,0,0,0,0,0,1,3,2,3,2,1,2,3,4,4,4,2,2,3,2,4,2,4,4,5,2,4
+0,I did something I was asked not to.,EfA,EA-t5-base,guilt,1,1,0,0,0,1,0,2,1,3,2,2,1,3,3,4,5,1,3,3,2,3,3,3,3,4,2,4
+1,I did something I was asked not to.,EfA,EA-t5-base,guilt,1,1,0,0,0,1,0,1,1,1,1,3,1,2,3,4,4,1,4,3,4,5,1,4,4,4,3,4
+2,I did something I was asked not to.,EfA,EA-t5-base,guilt,1,1,0,0,0,1,0,1,1,3,3,2,1,2,5,5,5,1,3,3,4,5,1,5,4,5,2,4
+0,I did not do what I was asked to do,EfA,EA-t5-base,guilt,1,0,1,0,0,1,1,1,1,3,2,1,2,1,3,5,5,2,2,3,2,4,3,3,4,4,3,3
+1,I did not do what I was asked to do,EfA,EA-t5-base,guilt,1,0,1,0,0,1,1,2,2,4,5,1,4,5,2,5,5,1,1,2,4,5,1,5,5,5,1,5
+2,I did not do what I was asked to do,EfA,EA-t5-base,guilt,1,0,1,0,0,1,1,2,2,3,5,1,4,5,1,5,5,1,2,1,3,4,2,4,4,5,4,2
+0,I did something I was asked not to.,EfA,EA-t5-base,joy,1,1,1,0,1,0,0,3,1,4,4,1,1,2,2,5,5,1,3,2,4,3,2,3,3,2,2,3
+1,I did something I was asked not to.,EfA,EA-t5-base,joy,1,1,1,0,1,0,0,1,1,2,3,4,2,2,3,5,5,1,2,3,3,5,1,4,4,5,3,4
+2,I did something I was asked not to.,EfA,EA-t5-base,joy,1,1,1,0,1,0,0,1,1,3,4,2,1,2,5,5,5,1,3,3,4,5,1,3,5,5,2,4
+0,I did not get a good grade in school,EfA,EA-t5-base,sadness,0,0,0,1,0,1,0,4,2,2,3,1,5,4,4,5,4,2,1,4,3,5,2,4,4,5,3,4
+1,I did not get a good grade in school,EfA,EA-t5-base,sadness,0,0,0,1,0,1,0,2,2,2,3,1,3,3,4,4,4,1,1,3,4,5,1,5,5,5,1,5
+2,I did not get a good grade in school,EfA,EA-t5-base,sadness,0,0,0,1,0,1,0,2,1,1,4,1,4,4,4,5,4,1,1,4,3,5,2,4,5,5,5,5
+0,I did not do enough reading to get a good grade in school,EfA,EA-t5-base,shame,0,1,0,0,0,0,0,2,3,4,2,2,3,3,4,4,2,3,4,3,2,3,3,3,3,3,3,3
+1,I did not do enough reading to get a good grade in school,EfA,EA-t5-base,shame,0,1,0,0,0,0,0,3,3,2,3,1,4,4,2,5,4,1,1,2,3,4,2,4,3,5,3,4
+2,I did not do enough reading to get a good grade in school,EfA,EA-t5-base,shame,0,1,0,0,0,0,0,5,4,4,4,2,4,5,4,3,3,4,3,4,3,4,3,4,3,3,4,3
+0,when I saw a homeless person who had been ill and was not able,EfA,EA-t5-base,disgust,1,0,0,0,0,1,0,1,2,3,2,1,4,1,1,1,1,5,1,1,1,1,5,2,2,1,5,1
+1,when I saw a homeless person who had been ill and was not able,EfA,EA-t5-base,disgust,1,0,0,0,0,1,0,3,1,3,4,1,5,2,5,1,1,4,1,2,3,4,3,2,3,5,4,2
+2,when I saw a homeless person who had been ill and was not able,EfA,EA-t5-base,disgust,1,0,0,0,0,1,0,3,1,1,4,1,4,4,2,1,1,1,1,2,1,4,2,2,2,3,4,2
+0,When I saw a homeless person who was unwell and needed immediate medical attention,EfA,EA-t5-base,fear,1,1,0,0,0,1,1,1,1,4,2,1,4,2,4,2,2,3,1,2,1,2,4,2,2,3,4,2
+1,When I saw a homeless person who was unwell and needed immediate medical attention,EfA,EA-t5-base,fear,1,1,0,0,0,1,1,1,1,2,1,1,4,1,5,1,3,4,1,3,3,4,2,4,3,4,1,5
+2,When I saw a homeless person who was unwell and needed immediate medical attention,EfA,EA-t5-base,fear,1,1,0,0,0,1,1,1,2,2,2,1,2,1,5,1,4,2,1,3,3,1,4,1,1,5,3,3
+0,when I saw a homeless person who had been ill and was not able,EfA,EA-t5-base,disgust,0,0,0,0,0,1,0,3,3,4,5,1,5,3,4,1,1,5,1,2,2,3,4,2,3,4,3,3
+1,when I saw a homeless person who had been ill and was not able,EfA,EA-t5-base,disgust,0,0,0,0,0,1,0,2,2,2,2,1,3,2,4,1,1,4,1,2,1,3,3,4,3,4,3,4
+2,when I saw a homeless person who had been ill and was not able,EfA,EA-t5-base,disgust,0,0,0,0,0,1,0,1,1,1,2,1,4,2,2,1,1,2,1,1,1,3,5,2,3,5,2,4
+0,When I saw my partner for the first time,EfA,EA-t5-base,sadness,1,0,0,1,0,1,1,1,1,1,1,3,1,1,2,2,2,2,3,2,1,3,2,3,1,3,4,2
+1,When I saw my partner for the first time,EfA,EA-t5-base,sadness,1,0,0,1,0,1,1,1,1,1,1,3,1,1,4,5,5,1,5,4,4,5,1,5,5,5,3,4
+2,When I saw my partner for the first time,EfA,EA-t5-base,sadness,1,0,0,1,0,1,1,1,1,1,1,1,1,1,3,2,4,3,3,3,1,4,1,4,4,2,4,4
+0,When I saw my grandma die,EfA,EA-t5-base,sadness,1,1,0,0,0,1,1,3,1,4,4,1,5,3,4,1,1,5,1,4,3,4,3,4,3,2,1,3
+1,When I saw my grandma die,EfA,EA-t5-base,sadness,1,1,0,0,0,1,1,4,1,1,2,1,5,1,5,1,1,4,1,3,2,4,2,3,2,5,4,4
+2,When I saw my grandma die,EfA,EA-t5-base,sadness,1,1,0,0,0,1,1,2,1,4,3,1,5,3,4,1,3,4,1,5,3,4,3,2,4,5,3,3
+0,When I saw my partner who was suffering from alcoholism,EfA,EA-t5-base,sadness,1,1,1,0,0,1,1,4,3,4,2,1,4,3,5,2,4,1,1,4,4,5,1,4,4,1,2,2
+1,When I saw my partner who was suffering from alcoholism,EfA,EA-t5-base,sadness,1,1,1,0,0,1,1,3,3,4,2,1,5,4,5,1,2,2,1,3,4,4,2,3,3,3,3,2
+2,When I saw my partner who was suffering from alcoholism,EfA,EA-t5-base,sadness,1,1,1,0,0,1,1,4,4,3,2,1,5,3,5,1,1,1,1,5,2,4,4,3,4,5,4,2
+0,When I saw my partner scold me for something I did not do,EfA,EA-t5-base,shame,1,1,1,0,0,1,1,3,3,4,1,1,4,2,4,1,1,2,1,2,1,4,3,3,4,3,2,2
+1,When I saw my partner scold me for something I did not do,EfA,EA-t5-base,shame,1,1,1,0,0,1,1,5,3,3,1,1,4,2,4,1,2,2,1,2,4,5,1,5,5,5,1,5
+2,When I saw my partner scold me for something I did not do,EfA,EA-t5-base,shame,1,1,1,0,0,1,1,5,2,3,2,1,4,2,5,2,3,1,1,3,1,2,5,1,2,4,5,1
+0,When I saw a friend who was struggling with addiction because I didn't know what to do,EfA,EA-t5-base,shame,1,1,1,0,0,1,0,4,4,4,4,1,4,4,4,1,2,3,1,4,1,2,5,1,2,4,3,3
+1,When I saw a friend who was struggling with addiction because I didn't know what to do,EfA,EA-t5-base,shame,1,1,1,0,0,1,0,3,2,4,3,1,4,2,4,1,3,5,1,2,4,2,5,1,5,4,5,1
+2,When I saw a friend who was struggling with addiction because I didn't know what to do,EfA,EA-t5-base,shame,1,1,1,0,0,1,0,3,3,5,2,1,5,2,4,1,1,5,1,3,1,1,4,1,1,5,5,1
+0,when I saw a homeless person who had been ill and was not able,EfA,EA-t5-base,disgust,1,0,0,1,0,1,0,1,3,3,3,1,3,1,3,1,2,3,2,3,3,3,3,2,1,1,4,1
+1,when I saw a homeless person who had been ill and was not able,EfA,EA-t5-base,disgust,1,0,0,1,0,1,0,2,2,2,3,1,4,2,4,1,2,4,1,2,1,3,4,1,2,2,4,2
+2,when I saw a homeless person who had been ill and was not able,EfA,EA-t5-base,disgust,1,0,0,1,0,1,0,1,3,1,4,1,2,2,1,1,1,3,1,2,1,1,5,1,2,4,1,5
+0,I am a teacher at my school and I am  at myself for not being able to,EfA,EA-t5-base,anger,1,0,0,0,0,1,0,2,2,1,2,1,2,1,1,2,2,1,1,1,1,2,3,2,2,1,4,2
+1,I am a teacher at my school and I am  at myself for not being able to,EfA,EA-t5-base,anger,1,0,0,0,0,1,0,1,1,1,3,1,1,3,2,4,4,2,3,3,3,1,5,1,1,1,3,1
+2,I am a teacher at my school and I am  at myself for not being able to,EfA,EA-t5-base,anger,1,0,0,0,0,1,0,1,1,1,1,2,1,1,3,2,2,2,2,2,2,1,5,2,2,1,4,1
+0,I am watching a documentary on how animals are treated for food.,EfA,EA-t5-base,disgust,0,0,0,0,0,0,1,5,5,1,3,1,4,4,5,2,1,5,1,3,1,5,1,5,4,5,1,5
+1,I am watching a documentary on how animals are treated for food.,EfA,EA-t5-base,disgust,0,0,0,0,0,0,1,4,5,2,2,1,5,3,5,5,5,1,1,2,2,5,1,5,5,5,5,5
+2,I am watching a documentary on how animals are treated for food.,EfA,EA-t5-base,disgust,0,0,0,0,0,0,1,2,2,2,2,1,2,1,4,1,1,1,1,1,1,3,3,2,3,2,3,2
+0,I am at home alone and a stranger approaches me at night. I am  of being,EfA,EA-t5-base,fear,1,0,1,0,0,1,0,3,3,3,3,1,2,2,2,3,4,2,3,3,3,3,3,3,3,3,3,3
+1,I am at home alone and a stranger approaches me at night. I am  of being,EfA,EA-t5-base,fear,1,0,1,0,0,1,0,2,1,5,1,1,1,1,5,1,2,3,1,3,2,3,5,3,2,2,4,2
+2,I am at home alone and a stranger approaches me at night. I am  of being,EfA,EA-t5-base,fear,1,0,1,0,0,1,0,2,2,4,2,1,2,1,5,1,2,2,2,2,2,5,3,5,3,3,4,3
+0,I am late to school due to a health condition,EfA,EA-t5-base,guilt,0,1,1,0,0,0,1,2,1,2,2,1,1,2,3,1,2,2,1,3,2,5,1,5,5,5,2,4
+1,I am late to school due to a health condition,EfA,EA-t5-base,guilt,0,1,1,0,0,0,1,1,1,1,1,1,4,4,5,1,1,5,1,5,3,5,1,5,5,5,1,5
+2,I am late to school due to a health condition,EfA,EA-t5-base,guilt,0,1,1,0,0,0,1,1,1,1,2,1,3,1,1,1,1,1,1,2,2,5,1,5,5,5,3,5
+0,I felt sadness when my 18 year old son passed away.,crowd_enVent,Human,sadness,1,0,0,1,0,1,0,5,4,3,5,1,5,3,3,1,1,5,1,3,3,3,3,4,3,3,4,4
+1,I felt sadness when my 18 year old son passed away.,crowd_enVent,Human,sadness,1,0,0,1,0,1,0,4,4,1,3,1,5,1,5,1,1,3,1,5,2,5,1,5,5,5,2,4
+2,I felt sadness when my 18 year old son passed away.,crowd_enVent,Human,sadness,1,0,0,1,0,1,0,5,2,5,2,1,5,2,5,1,1,1,1,5,4,5,1,5,3,5,1,5
+0,I found some rotten onions in my cupboard that were slimy and smelly and I had to clean it up,crowd_enVent,Human,disgust,0,1,1,0,0,0,1,4,3,2,1,1,1,1,3,3,3,1,1,1,3,1,1,4,1,1,1,4
+1,I found some rotten onions in my cupboard that were slimy and smelly and I had to clean it up,crowd_enVent,Human,disgust,0,1,1,0,0,0,1,2,5,1,1,1,1,2,5,3,5,3,1,3,3,5,1,5,5,5,1,5
+2,I found some rotten onions in my cupboard that were slimy and smelly and I had to clean it up,crowd_enVent,Human,disgust,0,1,1,0,0,0,1,2,4,1,1,1,1,2,3,3,4,2,1,3,3,3,2,3,3,3,2,3
+0,I was notified of my mother's death.,crowd_enVent,Human,sadness,1,0,0,1,0,1,0,3,1,5,3,1,5,1,5,1,1,5,1,5,1,5,2,5,4,5,1,5
+1,I was notified of my mother's death.,crowd_enVent,Human,sadness,1,0,0,1,0,1,0,3,1,4,1,1,5,1,5,1,1,5,1,5,3,3,4,3,3,5,1,4
+2,I was notified of my mother's death.,crowd_enVent,Human,sadness,1,0,0,1,0,1,0,3,1,2,3,1,5,2,5,1,1,2,1,4,1,5,1,5,5,5,2,5
+0,"I felt sadness when I visited my great grandmother in the hospital and knew this would be the last time I saw her alive due to her old age and current condition. Death has always been extremely saddening to me, and this was my first time experiencing it with a close family member.",crowd_enVent,Human,sadness,0,0,0,1,0,1,0,1,5,5,1,1,5,1,5,1,5,4,4,5,5,5,1,5,5,5,1,5
+1,"I felt sadness when I visited my great grandmother in the hospital and knew this would be the last time I saw her alive due to her old age and current condition. Death has always been extremely saddening to me, and this was my first time experiencing it with a close family member.",crowd_enVent,Human,sadness,0,0,0,1,0,1,0,1,1,4,2,1,5,1,5,1,1,5,1,5,3,5,1,5,5,5,2,5
+2,"I felt sadness when I visited my great grandmother in the hospital and knew this would be the last time I saw her alive due to her old age and current condition. Death has always been extremely saddening to me, and this was my first time experiencing it with a close family member.",crowd_enVent,Human,sadness,0,0,0,1,0,1,0,1,1,1,1,1,5,1,5,1,2,5,1,4,5,5,1,5,5,5,1,5
+0,i felt sadness when the concert I was supposed to go to got cancelled,crowd_enVent,Human,sadness,0,0,0,1,0,0,0,2,2,1,1,1,5,1,3,1,1,3,1,2,1,4,2,5,5,5,2,5
+1,i felt sadness when the concert I was supposed to go to got cancelled,crowd_enVent,Human,sadness,0,0,0,1,0,0,0,4,2,1,1,1,5,1,2,1,1,5,1,2,1,1,5,3,3,5,1,5
+2,i felt sadness when the concert I was supposed to go to got cancelled,crowd_enVent,Human,sadness,0,0,0,1,0,0,0,2,1,1,1,1,5,1,1,1,1,5,1,2,1,5,3,5,5,5,1,5
+0,I was working in a hospital and a physio was walking a patient through the corridor in a few metres in front of me. The poor patient through no fault of her own was incontinent and had not been given a nappy. She defecated on the floor while walking with the physio and had I not been paying attention I would have walked right the the excrement.,crowd_enVent,Human,disgust,1,0,0,1,0,0,0,2,5,2,2,1,4,4,5,1,1,2,1,4,1,4,3,1,2,4,5,1
+1,I was working in a hospital and a physio was walking a patient through the corridor in a few metres in front of me. The poor patient through no fault of her own was incontinent and had not been given a nappy. She defecated on the floor while walking with the physio and had I not been paying attention I would have walked right the the excrement.,crowd_enVent,Human,disgust,1,0,0,1,0,0,0,2,2,1,1,1,3,1,5,2,2,2,1,2,3,2,4,3,3,4,5,2
+2,I was working in a hospital and a physio was walking a patient through the corridor in a few metres in front of me. The poor patient through no fault of her own was incontinent and had not been given a nappy. She defecated on the floor while walking with the physio and had I not been paying attention I would have walked right the the excrement.,crowd_enVent,Human,disgust,1,0,0,1,0,0,0,3,4,1,2,1,3,1,2,1,1,3,1,2,3,5,1,5,5,5,1,5
+0,when I saw someone being sick outside a shop,crowd_enVent,Human,disgust,0,0,0,0,0,0,0,1,4,2,1,1,2,2,4,2,2,4,1,2,3,2,4,3,2,4,4,2
+1,when I saw someone being sick outside a shop,crowd_enVent,Human,disgust,0,0,0,0,0,0,0,3,4,1,1,1,2,1,1,2,1,5,1,1,2,4,1,4,3,5,2,4
+2,when I saw someone being sick outside a shop,crowd_enVent,Human,disgust,0,0,0,0,0,0,0,1,5,1,1,1,1,1,2,1,1,3,1,2,2,1,5,3,2,4,3,3
+0,A next door neighbour has once again started running generators and power tools.,crowd_enVent,Human,anger,0,0,0,0,0,1,1,4,3,1,1,1,1,1,4,1,1,1,1,4,2,4,1,3,4,5,2,4
+1,A next door neighbour has once again started running generators and power tools.,crowd_enVent,Human,anger,0,0,0,0,0,1,1,4,3,1,1,1,1,1,4,1,2,5,1,2,2,4,3,3,3,5,3,3
+2,A next door neighbour has once again started running generators and power tools.,crowd_enVent,Human,anger,0,0,0,0,0,1,1,5,5,1,1,1,4,1,3,1,1,5,1,2,3,4,1,4,4,4,3,3
+0,"I lost control of my car on a slippery and busy road and got stuck in a snowbank, with cars zooming past me.",crowd_enVent,Human,fear,1,1,0,1,0,1,0,1,1,4,2,1,2,1,5,3,3,2,4,4,2,5,1,4,5,5,2,3
+1,"I lost control of my car on a slippery and busy road and got stuck in a snowbank, with cars zooming past me.",crowd_enVent,Human,fear,1,1,0,1,0,1,0,2,1,5,3,1,3,2,5,2,2,4,1,4,2,5,3,2,5,5,4,2
+2,"I lost control of my car on a slippery and busy road and got stuck in a snowbank, with cars zooming past me.",crowd_enVent,Human,fear,1,1,0,1,0,1,0,4,3,5,5,1,5,4,5,5,5,3,1,5,5,4,2,4,3,4,2,4
+0,I lost control of my car whilst driving,crowd_enVent,Human,fear,1,0,0,0,0,1,0,2,1,5,2,1,1,2,5,2,3,2,1,4,2,5,1,5,5,5,1,5
+1,I lost control of my car whilst driving,crowd_enVent,Human,fear,1,0,0,0,0,1,0,2,3,4,2,3,3,4,2,4,3,3,2,4,3,4,3,3,4,3,4,3
+2,I lost control of my car whilst driving,crowd_enVent,Human,fear,1,0,0,0,0,1,0,1,1,5,3,1,1,1,5,3,3,3,1,4,3,4,1,3,5,4,3,3
+0,Booked a night away with friends and my children were upset that i was going to a hotel without them,crowd_enVent,Human,guilt,0,1,0,0,0,0,1,3,1,1,4,1,2,3,3,5,5,1,1,3,5,3,2,4,4,5,2,4
+1,Booked a night away with friends and my children were upset that i was going to a hotel without them,crowd_enVent,Human,guilt,0,1,0,0,0,0,1,1,1,1,4,1,2,1,5,5,4,2,1,2,2,4,2,5,5,5,1,5
+2,Booked a night away with friends and my children were upset that i was going to a hotel without them,crowd_enVent,Human,guilt,0,1,0,0,0,0,1,1,1,1,2,5,1,1,1,5,5,1,5,1,1,5,2,5,1,5,1,5
+0,my partner asked me to marry him,crowd_enVent,Human,joy,1,0,0,0,1,0,0,1,1,2,1,5,1,1,5,3,2,3,5,5,4,5,1,5,4,4,1,4
+1,my partner asked me to marry him,crowd_enVent,Human,joy,1,0,0,0,1,0,0,1,1,1,1,5,1,1,5,2,3,1,5,5,1,5,1,5,5,5,3,3
+2,my partner asked me to marry him,crowd_enVent,Human,joy,1,0,0,0,1,0,0,1,1,1,1,5,1,1,5,2,2,2,5,3,3,5,3,4,4,5,2,4
+0,I knew I needed to put my dog Holly to sleep. It was awful but I knew it was the right thing to do to stop her suffering she looked so sad most of the time.,crowd_enVent,Human,sadness,1,0,0,1,0,1,0,4,1,4,5,1,5,2,5,1,1,5,1,1,3,5,1,4,3,4,3,4
+1,I knew I needed to put my dog Holly to sleep. It was awful but I knew it was the right thing to do to stop her suffering she looked so sad most of the time.,crowd_enVent,Human,sadness,1,0,0,1,0,1,0,1,1,4,4,1,5,4,5,1,1,5,1,5,5,5,1,5,5,5,1,5
+2,I knew I needed to put my dog Holly to sleep. It was awful but I knew it was the right thing to do to stop her suffering she looked so sad most of the time.,crowd_enVent,Human,sadness,1,0,0,1,0,1,0,4,2,5,5,1,5,4,5,1,3,3,1,5,3,5,1,5,3,5,1,5
+0,I felt sadness when my sister's dog passed away.,crowd_enVent,Human,sadness,1,0,0,1,0,1,0,1,1,1,1,1,4,1,4,1,1,5,1,4,3,5,1,4,5,5,1,5
+1,I felt sadness when my sister's dog passed away.,crowd_enVent,Human,sadness,1,0,0,1,0,1,0,1,1,3,3,1,5,1,5,1,2,5,1,4,4,5,1,5,1,5,1,5
+2,I felt sadness when my sister's dog passed away.,crowd_enVent,Human,sadness,1,0,0,1,0,1,0,3,1,1,1,1,5,1,5,1,1,5,1,3,1,5,1,4,4,5,2,2
+0,I raised my hand in class to answer a question but gave a wrong answer,crowd_enVent,Human,shame,0,1,0,0,0,0,0,2,2,3,2,2,2,2,4,3,3,3,4,3,3,3,3,3,3,3,3,3
+1,I raised my hand in class to answer a question but gave a wrong answer,crowd_enVent,Human,shame,0,1,0,0,0,0,0,2,1,2,1,1,3,4,4,5,5,1,1,3,3,3,2,4,4,5,2,5
+2,I raised my hand in class to answer a question but gave a wrong answer,crowd_enVent,Human,shame,0,1,0,0,0,0,0,4,4,4,3,1,4,4,5,5,4,2,2,3,4,5,3,3,3,3,2,4
+0,My home insurance company messed up my insurance claim,crowd_enVent,Human,anger,1,0,0,0,0,1,0,4,2,2,1,1,3,1,5,1,2,4,1,3,2,5,1,5,5,5,1,5
+1,My home insurance company messed up my insurance claim,crowd_enVent,Human,anger,1,0,0,0,0,1,0,3,1,1,1,1,1,1,5,1,2,1,1,2,1,5,1,5,5,5,1,5
+2,My home insurance company messed up my insurance claim,crowd_enVent,Human,anger,1,0,0,0,0,1,0,5,2,4,1,1,2,1,5,1,1,1,1,3,1,4,2,5,4,4,3,3
+0,I felt fear when my family was experiencing a hurricane being stuck in our house. It was scary because two houses behind us caught on fire and our first floor flooded. We were stuck and unable to leave.,crowd_enVent,Human,fear,1,0,0,1,0,1,0,2,1,5,2,1,5,2,4,1,1,5,1,3,1,2,5,1,3,4,5,2
+1,I felt fear when my family was experiencing a hurricane being stuck in our house. It was scary because two houses behind us caught on fire and our first floor flooded. We were stuck and unable to leave.,crowd_enVent,Human,fear,1,0,0,1,0,1,0,2,1,5,1,1,4,1,5,1,1,5,1,4,3,4,3,3,2,4,4,4
+2,I felt fear when my family was experiencing a hurricane being stuck in our house. It was scary because two houses behind us caught on fire and our first floor flooded. We were stuck and unable to leave.,crowd_enVent,Human,fear,1,0,0,1,0,1,0,1,1,5,1,1,4,1,5,1,1,5,1,5,2,4,2,1,3,4,3,3
+0,"I felt fear when there was a power outage in my home. That day, my wife and I were cuddling in the sitting room when a thunderstorm started. Then fear filled me when thunder hit our roof and all the lights went off.",crowd_enVent,Human,fear,0,0,0,1,0,0,0,3,1,5,1,1,3,1,4,1,1,5,1,3,3,4,3,4,4,5,3,4
+1,"I felt fear when there was a power outage in my home. That day, my wife and I were cuddling in the sitting room when a thunderstorm started. Then fear filled me when thunder hit our roof and all the lights went off.",crowd_enVent,Human,fear,0,0,0,1,0,0,0,3,1,5,1,1,4,1,5,1,2,5,1,4,5,5,4,5,4,5,4,4
+2,"I felt fear when there was a power outage in my home. That day, my wife and I were cuddling in the sitting room when a thunderstorm started. Then fear filled me when thunder hit our roof and all the lights went off.",crowd_enVent,Human,fear,0,0,0,1,0,0,0,1,1,5,1,1,2,1,4,1,1,1,1,3,1,4,2,3,3,3,3,3
+0,"Moved to Germany after I finished college, it was a great time for me",crowd_enVent,Human,joy,1,1,0,0,1,1,0,1,1,1,1,5,1,1,3,5,4,1,5,4,3,4,2,5,4,5,2,5
+1,"Moved to Germany after I finished college, it was a great time for me",crowd_enVent,Human,joy,1,1,0,0,1,1,0,1,1,1,1,5,1,1,5,5,5,1,5,5,4,2,5,1,4,5,2,5
+2,"Moved to Germany after I finished college, it was a great time for me",crowd_enVent,Human,joy,1,1,0,0,1,1,0,1,1,1,1,5,1,1,1,5,5,1,5,1,1,4,2,4,5,5,1,5
+0,"When it was Christmas, watching my daughter opening her presents and being with my wonderful family.",crowd_enVent,Human,joy,1,1,0,0,1,0,1,1,1,1,1,4,1,1,3,2,2,1,5,2,2,1,4,2,2,3,4,2
+1,"When it was Christmas, watching my daughter opening her presents and being with my wonderful family.",crowd_enVent,Human,joy,1,1,0,0,1,0,1,1,1,1,1,5,1,1,4,5,5,1,5,4,4,2,5,3,3,5,3,3
+2,"When it was Christmas, watching my daughter opening her presents and being with my wonderful family.",crowd_enVent,Human,joy,1,1,0,0,1,0,1,1,1,1,1,4,1,1,4,3,3,1,4,2,3,2,4,2,2,3,4,2
+0,we picked up a puppy.,crowd_enVent,Human,joy,1,1,1,0,1,0,1,1,1,1,1,5,1,1,3,5,5,1,5,2,4,5,2,4,5,5,1,5
+1,we picked up a puppy.,crowd_enVent,Human,joy,1,1,1,0,1,0,1,1,1,1,1,5,1,1,4,4,4,1,5,4,4,4,1,4,4,4,1,4
+2,we picked up a puppy.,crowd_enVent,Human,joy,1,1,1,0,1,0,1,1,1,2,1,5,1,1,3,3,1,1,4,3,2,5,1,5,5,5,1,5
+0,"I felt anger when an internet order would not refund my properly for their mistake and when I emailed to explain the problem they just sent back automated answers that didn’t answer. So after 4 emails a person finally answered and then agreed to refund, however the refund when it came through wasn’t all the money back!",crowd_enVent,Human,anger,1,0,0,1,0,0,0,4,2,1,1,1,1,1,4,2,3,1,1,3,4,2,1,2,2,4,3,4
+1,"I felt anger when an internet order would not refund my properly for their mistake and when I emailed to explain the problem they just sent back automated answers that didn’t answer. So after 4 emails a person finally answered and then agreed to refund, however the refund when it came through wasn’t all the money back!",crowd_enVent,Human,anger,1,0,0,1,0,0,0,5,2,1,1,1,4,1,2,1,1,2,1,3,1,3,4,2,2,5,2,3
+2,"I felt anger when an internet order would not refund my properly for their mistake and when I emailed to explain the problem they just sent back automated answers that didn’t answer. So after 4 emails a person finally answered and then agreed to refund, however the refund when it came through wasn’t all the money back!",crowd_enVent,Human,anger,1,0,0,1,0,0,0,4,1,2,1,1,3,1,4,1,1,4,1,3,1,4,4,4,4,4,1,4
+0,my co-worker passed away from a brain tumour they had for two years at the age of 39 and losing their presence at work was very sad,crowd_enVent,Human,sadness,1,0,0,1,0,1,1,2,1,4,1,1,5,1,5,1,1,5,1,2,3,5,1,5,4,5,1,5
+1,my co-worker passed away from a brain tumour they had for two years at the age of 39 and losing their presence at work was very sad,crowd_enVent,Human,sadness,1,0,0,1,0,1,1,1,1,2,3,1,5,2,4,1,1,5,1,4,5,4,5,3,3,5,2,3
+2,my co-worker passed away from a brain tumour they had for two years at the age of 39 and losing their presence at work was very sad,crowd_enVent,Human,sadness,1,0,0,1,0,1,1,1,1,1,1,1,5,1,4,1,1,5,1,1,1,5,1,5,5,5,3,5
+0,I felt shame when I was called out for giving incorrect information on a topic that I thought I knew very well.,crowd_enVent,Human,shame,1,1,0,0,0,0,0,3,1,3,2,1,4,5,3,5,3,2,1,4,1,4,1,4,4,4,2,4
+1,I felt shame when I was called out for giving incorrect information on a topic that I thought I knew very well.,crowd_enVent,Human,shame,1,1,0,0,0,0,0,2,1,1,1,1,3,5,4,2,2,1,1,1,1,5,1,5,4,5,1,4
+2,I felt shame when I was called out for giving incorrect information on a topic that I thought I knew very well.,crowd_enVent,Human,shame,1,1,0,0,0,0,0,4,2,3,5,1,5,5,4,5,3,1,1,3,1,4,1,5,5,5,3,3
+0,I failed a maths test and the teacher called me out in front of the class,crowd_enVent,Human,shame,0,1,0,0,0,0,0,4,3,5,5,1,4,5,4,4,3,2,2,3,3,5,3,4,4,5,3,3
+1,I failed a maths test and the teacher called me out in front of the class,crowd_enVent,Human,shame,0,1,0,0,0,0,0,2,2,3,3,1,4,4,4,3,2,1,1,3,3,4,1,4,4,5,2,4
+2,I failed a maths test and the teacher called me out in front of the class,crowd_enVent,Human,shame,0,1,0,0,0,0,0,3,1,3,4,1,3,5,5,4,1,4,1,3,3,5,1,4,4,5,3,3
+0,I took my child into a family toilet in a shopping centre. The room was absolutely filthy and there was even poo on the floor.,crowd_enVent,Human,disgust,0,0,0,0,0,0,0,5,5,2,1,1,3,1,5,1,1,5,1,3,1,3,1,3,2,5,2,4
+1,I took my child into a family toilet in a shopping centre. The room was absolutely filthy and there was even poo on the floor.,crowd_enVent,Human,disgust,0,0,0,0,0,0,0,5,5,2,1,1,2,1,5,1,2,3,1,4,3,5,1,5,5,5,1,5
+2,I took my child into a family toilet in a shopping centre. The room was absolutely filthy and there was even poo on the floor.,crowd_enVent,Human,disgust,0,0,0,0,0,0,0,4,5,2,1,1,2,1,5,1,1,4,1,3,4,5,1,5,5,5,1,5
+0,Someone flicked a wet bogey on to my cheek. It was disgusting,crowd_enVent,Human,disgust,1,0,0,0,0,0,0,3,5,1,1,1,2,3,3,1,1,5,1,2,2,5,1,5,5,3,2,4
+1,Someone flicked a wet bogey on to my cheek. It was disgusting,crowd_enVent,Human,disgust,1,0,0,0,0,0,0,3,4,4,2,4,4,3,2,4,3,3,3,4,4,3,4,4,3,3,5,3
+2,Someone flicked a wet bogey on to my cheek. It was disgusting,crowd_enVent,Human,disgust,1,0,0,0,0,0,0,4,5,1,1,1,3,1,5,1,1,1,1,1,1,5,1,4,5,5,2,2
+0,I was surrounded by four men; they hit me in the face before I offered to give them everything I had in my pockets.,crowd_enVent,Human,fear,1,0,0,0,0,1,0,4,4,5,3,1,3,3,5,1,2,3,3,4,4,5,2,5,4,3,4,4
+1,I was surrounded by four men; they hit me in the face before I offered to give them everything I had in my pockets.,crowd_enVent,Human,fear,1,0,0,0,0,1,0,5,4,5,1,1,5,1,5,1,1,1,1,5,1,5,2,5,5,5,2,4
+2,I was surrounded by four men; they hit me in the face before I offered to give them everything I had in my pockets.,crowd_enVent,Human,fear,1,0,0,0,0,1,0,5,5,5,1,1,5,1,5,1,3,1,1,5,4,5,2,5,3,5,1,5
+0,During labour and I got rushed to theatre for a cesarean section because my child's heartbeat and movement had slowed right down.,crowd_enVent,Human,fear,1,0,0,1,0,1,0,3,3,5,5,1,4,3,5,1,1,5,1,1,3,5,1,3,4,3,3,3
+1,During labour and I got rushed to theatre for a cesarean section because my child's heartbeat and movement had slowed right down.,crowd_enVent,Human,fear,1,0,0,1,0,1,0,1,1,5,1,1,4,1,4,1,1,5,1,5,1,4,2,4,4,5,3,3
+2,During labour and I got rushed to theatre for a cesarean section because my child's heartbeat and movement had slowed right down.,crowd_enVent,Human,fear,1,0,0,1,0,1,0,4,2,5,4,2,2,1,5,2,2,5,1,5,2,4,3,5,3,5,1,5
+0,I got married in the summer,crowd_enVent,Human,joy,1,0,1,0,1,1,0,1,1,1,1,5,1,1,5,5,5,1,5,5,5,5,1,5,5,5,1,5
+1,I got married in the summer,crowd_enVent,Human,joy,1,0,1,0,1,1,0,1,1,1,1,5,1,1,5,5,5,1,5,5,5,5,1,5,5,5,1,5
+2,I got married in the summer,crowd_enVent,Human,joy,1,0,1,0,1,1,0,1,1,3,1,5,1,1,5,5,5,1,5,5,5,5,1,5,5,5,1,4
+0,I felt joy when I traveled to Europe because I got to fulfill a dream.,crowd_enVent,Human,joy,1,1,1,0,1,0,0,1,1,1,2,5,1,1,2,4,5,2,5,3,3,5,1,5,5,1,2,4
+1,I felt joy when I traveled to Europe because I got to fulfill a dream.,crowd_enVent,Human,joy,1,1,1,0,1,0,0,1,1,1,1,5,1,1,5,5,5,3,5,5,5,5,1,4,4,5,3,3
+2,I felt joy when I traveled to Europe because I got to fulfill a dream.,crowd_enVent,Human,joy,1,1,1,0,1,0,0,1,1,1,1,5,1,1,4,5,5,1,5,4,5,5,1,4,4,5,2,4
